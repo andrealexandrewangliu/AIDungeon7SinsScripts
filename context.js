@@ -2,11 +2,14 @@ InnerSelf("context");
 const modifier = (text) => {
   // Trigger List
   const cardsToTrigger = [];
+  var list_check;
   var check_aspect_unlock = false;
   var temple_card = false;
   var build_check = false;
   var craft_check = false;
   var summon_check = false;
+  var class_list_check = false;
+  var race_list_check = false;
   //var card_aspect_unlock_context = false;
   //var card_generic_summon_context = false;
   
@@ -22,6 +25,8 @@ const modifier = (text) => {
   const sins = [];
   const aspects = [];
   const facilities = [];
+  const classes = [];
+  const races = [];
 
   // If we are iterating all card, let's map them all
   for (let i = storyCards.length - 1; -1 < i; i--) {
@@ -38,6 +43,16 @@ const modifier = (text) => {
       facilities.push(card.title);
       core_card_name_dict[card.title] = card;
       core_card_key_dict[card.keys] = card;
+    }else{if (card.type == 'race'){
+      races.push(card.title);
+      //core_card_name_dict[card.title] = card;
+      //core_card_key_dict[card.keys] = card;
+    }else{if (card.type == 'class'){
+      if ((!card.title.includes('Inner Self')) && (!card.title.includes('Auto-Cards')) && card.title != 'Hero' && card.title != 'Tyrant'){
+        classes.push(card.title);
+        //core_card_name_dict[card.title] = card;
+        //core_card_key_dict[card.keys] = card;
+      }
     }else{if (card.type == 'Catalogue'){
       if (card.keys == 'Trigger_Unlock_Aspect_Check'){
         //card_aspect_unlock_context = card
@@ -49,7 +64,7 @@ const modifier = (text) => {
         core_card_name_dict[card.title] = card;
         core_card_key_dict[card.keys] = card;
       }
-    }}}}
+    }}}}}}
   }
 
   //fetch latest action
@@ -115,14 +130,22 @@ const modifier = (text) => {
       check_aspect_unlock = true;
     }
     // HIDDEN ASPECT CHECK END
-
+    list_check = normalized.includes('unlock') || normalized.includes('list') || normalized.includes('catalogue') || normalized.includes('check');
     // Call Aspect unlock check
-    if ((normalized.includes('unlock') || normalized.includes('list') || normalized.includes('catalogue') || normalized.includes('check')) && (normalized.includes('aspect'))){
+    if (list_check && normalized.includes('aspect')){
       const card = core_card_key_dict[`Trigger_Unlock_Aspect_Check`];
       if (!cardsToTrigger.includes(card)){
         cardsToTrigger.push(card);  // Fetches/activates existing 
       }
       check_aspect_unlock = true;
+    }
+
+    // Class Check
+    if (list_check && normalized.includes('class')){
+      class_list_check = true;
+    }
+    if (list_check && normalized.includes('race')){
+      race_list_check = true;
     }
 
     if (summon_check){
@@ -176,16 +199,21 @@ const modifier = (text) => {
   
   [text, stop] = AutoCards("context", text, stop);
   // Any other context modifier scripts can go here
-  if (cardsToTrigger.length >= 1){
+  if (cardsToTrigger.length >= 1 || class_list_check || race_list_check){
     // Find Story Summary marker
-    const marker = "\n\nStory Summary:";
-    const idx = text.indexOf(marker);
+    var idx = text.indexOf("\n\nStory Summary:");
     var before = text;
     var after = "";
-
     if (idx !== -1) {
       before = text.slice(0, idx);
       after = text.slice(idx);
+    }
+    else{
+      idx = text.indexOf("\n\nRecent Story:");
+      if (idx !== -1) {
+        before = text.slice(0, idx);
+        after = text.slice(idx);
+      }
     }
     for (const card of cardsToTrigger){
       if (card != undefined){
@@ -194,6 +222,20 @@ const modifier = (text) => {
             before += "\n\n" + card.entry;
         }
       }
+    }
+    if (race_list_check){
+      var race_list = 'List of Races:\n'
+      for (const name of races){
+        race_list += ` - ${name}\n`
+      }
+      before += "\n\n" + race_list;
+    }
+    if (class_list_check){
+      var class_list = 'List of Classes:\n'
+      for (const name of classes){
+        class_list += ` - ${name}\n`
+      }
+      before += "\n\n" + class_list;
     }
     text = before + after;
   }
