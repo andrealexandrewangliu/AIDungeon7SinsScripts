@@ -68,13 +68,13 @@ const modifier = (text) => {
         cardsToTrigger.push(card);  // Fetches/activates existing 
       }
     }
-    if (normalized.includes('build') || normalized.includes('construct') || normalized.includes('create') || normalized.includes('spawn') || normalized.includes('make')){
+    if (normalized.includes('build') || normalized.includes('construct') || normalized.includes('create') || normalized.includes('spawn') || normalized.includes('assemble') || normalized.includes('make')){
       build_check = true;
     }
     if (normalized.includes('summon') || normalized.includes('invoke') || normalized.includes('create') || normalized.includes('spawn') || normalized.includes('make')){
       summon_check = true;
     }
-    if (normalized.includes('craft') || normalized.includes('manufacture') || normalized.includes('create') || normalized.includes('make')){
+    if (normalized.includes('craft') || normalized.includes('manufacture') || normalized.includes('create') || normalized.includes('assemble') || normalized.includes('make')){
       craft_check = true;
     }
 
