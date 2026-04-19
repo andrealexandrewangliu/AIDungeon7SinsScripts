@@ -176,13 +176,26 @@ const modifier = (text) => {
   
   [text, stop] = AutoCards("context", text, stop);
   // Any other context modifier scripts can go here
-  for (const card of cardsToTrigger){
-    if (card != undefined){
-      const flat_card = flatten(card.entry.toLowerCase())
-      if (!originalflat.includes(flat_card)){
-          text += "\n\n" + card.entry;
+  if (cardsToTrigger.length >= 1){
+    // Find Story Summary marker
+    const marker = "\n\nStory Summary:";
+    const idx = text.indexOf(marker);
+    var before = text;
+    var after = "";
+
+    if (idx !== -1) {
+      before = text.slice(0, idx);
+      after = text.slice(idx);
+    }
+    for (const card of cardsToTrigger){
+      if (card != undefined){
+        const flat_card = flatten(card.entry.toLowerCase())
+        if (!originalflat.includes(flat_card)){
+            before += "\n\n" + card.entry;
+        }
       }
     }
+    text = before + after;
   }
 
   //ouput context for possible successfull unlock
