@@ -1,0 +1,2626 @@
+[
+  {
+    "keys": "Hybrid, Half-Elf, Half-Orc, Half-Dwarf, Demihuman, Half-Beast, Half-Sea",
+    "value": "A Hybrid is any individual born from two different races.\nHybrids share traits from both parents, often blending physical features, senses, or minor abilities.\nDue to how chromosomes function in this world, quarter‑bloods do not exist.\nA child of a Hybrid and a pure‑blood parent becomes either:\n-a Hybrid (same two‑race combination), or\n- a pure‑blood of the non‑Hybrid parent’s race\n- No further fractional dilution occurs.",
+    "type": "race",
+    "title": "Hybrid",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Edit the entry above to enable story card automation",
+    "value": "> Auto-Cards automatically creates and updates plot-relevant story cards while you play. To enable this system, simply edit the \"false\" below to say \"true\" instead!\n> Enable Auto-Cards: false",
+    "type": "class",
+    "title": "Edit to enable \nAuto-Cards",
+    "description": "Perform any Do/Say/Story/Continue action within your adventure to apply this change!",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "play.aidungeon.com/profile/LewdLeah",
+    "value": "> Inner Self grants story characters the ability to learn, plan, and adapt over time. Edit the entry and notes below to control how Inner Self behaves.\n> Enable Inner Self: true\n> Show detailed guide: false\n> First name of player character: \"Example\"\n> Adventure in 1st, 2nd, or 3rd person: 2nd\n> Max brain size relative to story context: 30%\n> Recent turns searched for name triggers: 5\n> Visual indicator of current NPC triggers: \"🎭\"\n> Thought formation chance per turn: 60%\n> Half thought chance for Do/Say/Story: true\n> Brain card notes store brains as JSON: false\n> Enable debug mode to see model tasks: false\n> Pin this config card near the top: false\n> Install Auto-Cards: false\n> Write the name(s) of your non-player characters at the very bottom of the \"notes\" section below. This is mandatory because it allows Inner Self to assemble independent minds for the correct individuals.",
+    "type": "class",
+    "title": "Configure \nInner Self",
+    "description": "> Please visit my profile @LewdLeah through the link above and read my bio for simple steps to add Inner Self to your own scenarios! ❤️\n\n> Inner Self v1.0.2 is an open-source and general-purpose AI Dungeon mod by LewdLeah. You have my full permission to use it with any scenario!\n\n> Write the first name of every intelligent story character on separate lines below, listed from highest to lowest trigger priority:\n\n",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Imp",
+    "value": "Imp is a monster summonable by Tyrants\n- They serve as basic magical workforce in a dungeon\n- Can have a class\n- Can place magic traps\n- Good at recharging magic tools\n- Can also fight as militia\n- Around 120 cm tall\n- Can evolve into Archimp\n- Can evolve into Lesser Demon",
+    "type": "character",
+    "title": "Imp",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Hobgoblin",
+    "value": "Hobgoblin is a monster summonable by Tyrants\n- They serve as advanced physical workforce in a dungeon\n- Can have a class\n- Can also fight as militia\n- Subservient to the strong\n- Can make more advanced metalwork, carpentry and architecture\n- Intelligent\n- Around 170 cm tall\n- Can be evolved from Goblin\nVariants:\n- Pride: Dignified\n- Wrath: Fierce looking\n- Sloth: Friendly and relaxed\n- Gluttony: Fatter\n- Lust: Handsome",
+    "type": "character",
+    "title": "Hobgoblin",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lesser Demon",
+    "value": "Lesser Demon is a monster summonable by Tyrants\n- They serve as basic magical combatant in a dungeon\n- Can have a class\n- Basic Spellcaster\n- Around 150 cm tall\n- Intelligent\n- Can evolve from Imp\n- Can evolve into Demon\n- Appearance: Humanoid with horns, bat wings and pointy ears\nVariants:\n- Pride: Orderly, Black Feathery Wings\n- Greed: Dragon Wings\n- Wrath: Fierce looking, Bull Horns\n- Sloth: Friendly and relaxed, Sheep Horns\n- Gluttony: Fatter\n- Lust: Cute, Goat Horns",
+    "type": "character",
+    "title": "Lesser Demon",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Demon",
+    "value": "Demon is a demon summonable by Tyrants\n- They serve as advanced magical combatant in a dungeon\n- Can have a class\n- Advanced Spellcaster\n- Around 160 cm tall\n- Very Intelligent\n- Can evolve from Demon\n- Can evolve into Archdemon\n- Appearance: Humanoid with horns, bat wings and pointy ears\nVariants:\n- Pride: Dignified, Black Feathery Wings\n- Greed: Dragon Wings\n- Wrath: Fierce looking, Bull Horns\n- Sloth: Friendly and relaxed, Sheep Horns\n- Gluttony: Chubby\n- Lust: Beautiful, Goat Horns",
+    "type": "character",
+    "title": "Demon",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Archdemon",
+    "value": "Archdemon is a monster summonable by Tyrants\n- They serve as Elite magical combatant in a dungeon\n- Can have a class\n- Elite Spellcaster\n- Genius\n- Around 170 cm tall\n- Can evolve from Demon\n- Appearance: Humanoid with horns, bat wings and pointy ears\nVariants:\n- Pride: Dignified, Black Feathery Wings\n- Greed: Dragon Wings\n- Wrath: Fierce looking, Bull Horns\n- Sloth: Friendly and relaxed, Sheep Horns\n- Gluttony: Chubby\n- Lust: Beautiful, Goat Horns",
+    "type": "character",
+    "title": "Archdemon",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Oni",
+    "value": "Oni is a monster summonable by Tyrants\n- They serve as advanced physical combatant in a dungeon\n- Can have a class\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Good at handling weapons\n- Dexterous\n- High Physique\n- Intelligent\n- Around 180 cm tall\n- Appearance: Human with Horn\n- Can evolve from Kooni\n- Can evolve into Daioni\nVariants:\n- Pride: Dignified\n- Wrath: Fierce looking and very muscular\n- Sloth: Friendly and relaxed\n- Gluttony: Fatter\n- Lust: Handsome",
+    "type": "character",
+    "title": "Oni",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Daioni",
+    "value": "Daioni (big oni) is a monster summonable by Tyrants\n- They serve as elite physical combatant in a dungeon\n- Can have a class\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Weaponmaster\n- Dexterous\n- High Physique\n- Intelligent\n- Appearance: Human with Horn\n- Around 200 cm tall\n- Can evolve from Oni\nVariants:\n- Pride: Dignified\n- Wrath: Fierce looking and very muscular\n- Sloth: Friendly and relaxed\n- Gluttony: Fatter\n- Lust: Handsome",
+    "type": "character",
+    "title": "Daioni",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Trigger_Generic_Summon_Catalogue",
+    "value": "Generic Summoning Catalogue:\n- Goblin\n- Hobgoblin\n- Kooni\n- Oni\n- Daioni\n- Imp\n- Archimp\n- Lesser Demon\n- Demon\n- Archdemon\n- Gel\n- Slime\n- Roper",
+    "type": "Catalogue",
+    "title": "Generic Summon Catalogue",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Greed,7 Sins,Seven Sins",
+    "value": "Greed is one of the 7 sins\n- Dragon themed\n- Tyrant Race: Draconian\n- Tyrant Class: Tyrant\n- Personality: Greedy",
+    "type": "Detail",
+    "title": "Greed (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wrath,7 Sins,Seven Sins",
+    "value": "Wrath is one of the 7 sins\n- Bull themed\n- Tyrant Race: Tauran\n- Tyrant Class: Tyrant\n- Personality: Hotblooded",
+    "type": "Detail",
+    "title": "Wrath (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Pride,7 Sins,Seven Sins",
+    "value": "Pride is one of the 7 sins\n- Crow themed\n- Tyrant Race: Tengu\n- Tyrant Class: Tyrant\n- Personality: Arrogant",
+    "type": "Detail",
+    "title": "Pride (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lust,7 Sins,Seven Sins",
+    "value": "Lust is one of the 7 sins\n- Goat themed\n- Tyrant Race: Satyr\n- Tyrant Class: Tyrant\n- Personality: Alluring, Charismatic",
+    "type": "Detail",
+    "title": "Lust (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sloth,7 Sins,Seven Sins",
+    "value": "Sloth is one of the 7 sins\n- Sheep themed\n- Tyrant Race: Somnian\n- Tyrant Class: Tyrant\n- Personality: Lethargic",
+    "type": "Detail",
+    "title": "Sloth (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Envy,7 Sins,Seven Sins",
+    "value": "Envy is one of the 7 sins\n- Snake themed\n- Tyrant Race: Lamia\n- Tyrant Class: Tyrant\n- Personality: Envious",
+    "type": "Detail",
+    "title": "Envy (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gluttony,7 Sins,Seven Sins",
+    "value": "Gluttony is one of the 7 sins\n- Boar themed\n- Tyrant Race: Orc\n- Tyrant Class: Tyrant\n- Personality: Gourmet",
+    "type": "Detail",
+    "title": "Gluttony (Generic Details)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Trigger_Facility_Catalogue",
+    "value": "Facility Catalogue:\n- Mess Hall\n- Kitchen\n- Living Quarters\n- Workshop\n- Smithy\n- Lake\n- Dungeon Arena\n- Dungeon Throne\n- Monitoring Room\n- Enchantment Workshop (Requires Aspect)\n- Dungeon Ranch (Requires Aspect)\n- Dungeon Farm (Requires Aspect)\n- Bank (Requires Aspect)\n- Gold Forge (Requires Aspect)\n- Curse Forge (Requires Aspect)\n- Dungeon Library (Requires Aspect)\n- Dungeon Grove (Requires Aspect)\n- Dungeon Brewery (Requires Aspect)\n- Dungeon Alchemy Lab (Requires Aspect)",
+    "type": "Catalogue",
+    "title": "Facility Catalogue",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Trigger_Full_Summon_Catalogue",
+    "value": "Summoning Catalogue for each Sin\nPride:\n- Tengu\n- Fallen Angel\n\nEnvy:\n- Lamia\n- Troll\n- Medusa\n\nWrath:\n- Tauran\n- Minotaur\n- Overlord\n\nSloth:\n- Somnian\n- Succubus / Incubbus\n- Baku\n\nGreed:\n- Draconian\n- Wyvern\n- Dragon\n\nGluttony:\n- Orc\n- Ogre\n\nLust:\n- Satyr\n- Succubus / Incubbus\n- Nocturne Siren\n\nAny Sin:\n- Goblin\n- Hobgoblin\n- Kooni\n- Oni\n- Daioni\n- Imp\n- Archimp\n- Lesser Demon\n- Demon\n- Archdemon\n- Gel\n- Slime\n- Roper",
+    "type": "Catalogue",
+    "title": "Full Summon Catalogue",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Trigger_Unlock_Aspect_Check",
+    "value": "Aspect Unlock Catalogue: [\n(Name: Automation, Unlock: Craft a golem core),\n(Name: Consumption, Unlock: Craft a great dish),\n(Name: Investment, Unlock: Spend money worth 10000 Gold Coins),\n(Name: Illusive, Unlock: Fool the senses of 20 people in a year),\n(Name: Arcane Casting, Unlock: Cast a spell without resorting to skills),\n(Name: Arcane Enchanting, Unlock: Craft a enchantment),\n(Name: Royalty, Unlock: Household control more than 100 square kms of land),\n(Name: Anger, Unlock: Tyrant feels anger from the very depths of the soul),\n(Name: Ruler, Unlock: More than loyal 999 subjects),\n(Name: Plunder, Unlock: Steal 100 times without getting caught in row),\n(Name: Dreaming, Unlock: 100 Lucid dreams in a row),\n(Name: Harvesting, Unlock: Grow crops or livestock),\n(Name: Alluring, Unlock: Charm 20 people in one year),\n(Name: Cursing, Unlock: Curse 20 people in one year),\n(Name: Charismatic, Unlock: Persuade 20 people in a year),\n(Name: Electro, Unlock: Dungeon has large amount of thunder elements),\n(Name: Pyro, Unlock: Dungeon has large amount of fire elements),\n(Name: Cryo, Unlock: Dungeon has large amount of ics elements),\n(Name: Geo, Unlock: Dungeon has large amount of earth elements),\n(Name: Aero, Unlock: Dungeon has large amount of wind elements),\n(Name: Hydro, Unlock: Dungeon has large amount of water elements),\n(Name: Vita, Unlock: Witness Virtue Spirit within its own Sacred Site),\n(Name: Martial, Unlock: Master a valid martial art),\n(Name: Wealth, Unlock: Own money worth 100000 Gold coins),\n(Name: Brewing, Unlock: Craft alcohol),\n(Name: Arcane Alchemy, Unlock: Craft a potion),\n(Name: Natural Harmony, Unlock: Dungeon in forest and 5 years without killing a tree),\n(Name: Subterfuge, Unlock: Undetected for 3 months in a city ruled by one of the 7 virtue races),\n(Name: Spiritual Cultivation, Unlock: Subordinate or Tyrant atain spiritual growth 3 times),\n(Name: Clockworker, Unlock: Craft functional clockwork tool / golem / facitility with more than 20 gears),\n]",
+    "type": "Catalogue",
+    "title": "Full aspect unlock list",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Flying_Dungeon",
+    "value": "Flying Dungeon is an Aspect unlockable by donating 1000000000000 DP to the Goddess of Chaos via Worship Hall\n- The dungeon becomes capable of flight, functioning as a floating island.\n- The Tyrant somehow managed to convince the Goddess of Chaos to bless the dungeon with airborne mobility cruising at 0,36km/h.\n- The amount of DP donated could have been used to conquer the entire world… but this was chosen instead.\n- The Goddess of Order will absolutely hate this, the dungeon is visible to anyone, a person needs to be blind to not see a flying island.\n- Only applicable to Main Dungeon",
+    "type": "Aspect",
+    "title": "Flying Dungeon",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sin_Envy",
+    "value": "Envy Bonus:\n- Unlocked Aspects: Cursing, Plunder\n- Ultimate Monster: Medusa\n- Goal: Take what you want\n- Threat Level: High\n- Common Skills: Steal, Appraise\n- Unique Tyrant Skill: Envious Plunder\n\nEnvy Exclusive Summon Catalogue:\n- Lamia\n- Troll\n- Medusa",
+    "type": "Sin",
+    "title": "Envy",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Aspect_Illusive",
+    "value": "Illusive is an Aspect unlockable by decieving the senses of 20 different people within a single year\n- Unlocks Illusionist Class\n- Allows to add skill Illusion Magic\n- Allows to add skill Illusion Mastery",
+    "type": "Aspect",
+    "title": "Illusive",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Life Magic",
+    "value": "Life Magic is a passive skill\n- Allows use of life related magic\n- Common spells include: Heal, Regenerate, Cure\n- Legendary Spell: Resurgence\n- Cannot ressurect the dead",
+    "type": "Passive Skill",
+    "title": "Life Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Space Magic",
+    "value": "Space Magic is a passive skill\n- Allows use of space related magic\n- Common spells include: Teleport, Item Box, Spatial Seal\n- Legendary Spell: Black Hole",
+    "type": "Passive Skill",
+    "title": "Space Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Space Mastery",
+    "value": "Space Mastery is a passive skill\n- Increased efficiency in space magic\n- Can resist teleportation\n- Can feel spatial fluctuations\n- Requires Spatial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Space Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Life Mastery",
+    "value": "Life Mastery is a passive skill\n- Increased efficiency in life magic\n- Improved efficiency in healing and medicinal practices\n- Requires Vita Aspect to add",
+    "type": "Passive Skill",
+    "title": "Life Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Teleport, Warp",
+    "value": "Teleport is a common spell of Space Category\n- Teleports to a target location",
+    "type": "Spell",
+    "title": "Teleport",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Item Box",
+    "value": "Item Box is a common spell of Space Category\n- Allows to store items spatially\n- Inventory size and magic efficiency depends on mastery",
+    "type": "Spell",
+    "title": "Item Box",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Spatial Seal",
+    "value": "Spatial Seal is a common spell of Space Category\n- Prevents teleportation in and out of a certain area",
+    "type": "Spell",
+    "title": "Spatial Seal",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Firearms, Gun, Rifle, Musket, Pistol, Machinegun, SMG",
+    "value": "Firearms are gunpowder weapons, they cannot be enhanced with magic. A trained archer can shoot a wooden arrow with the power of an anti-material rifle making most guns obsolete.\nFirearms do not scale with training\nStrong armors on trained warriors can easily counter guns.\nThey can be used as mage killers for assassination since even a untrained militia can be deadly on unsuspecting fragile targets.",
+    "type": "Lore",
+    "title": "Firearms",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Crossbow",
+    "value": "Crossbow is a weapon that fires a small arrow (bolt), it's power does not scale with training.\nCan be enhanced with magic an Ki and skills allowing a certain amount of scaling.",
+    "type": "Lore",
+    "title": "Crossbow",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Power Level, Threat Level",
+    "value": "Basic / Novice: Strength of untrained militia\nAdvanced / Veteran: Combat professionals\nElite: Peak mortal strength; a single elite can overpower a modern warship\nSupreme / Ultimate / Disaster: Capable of destroying entire cities",
+    "type": "Lore",
+    "title": "Power Levels",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Archimp",
+    "value": "Archimp is a monster summonable by Tyrants\n- They serve as advanced magical workforce in a dungeon\n- Can enchant and curse items\n- Can operate advanced magical facilities\n- Can also fight as militia\n- Intelligent\n- Around 150 cm tall\n- Can evolve from Imp\nVariants:\n- Pride: Dignified\n- Wrath: Fierce looking\n- Sloth: Friendly and relaxed\n- Gluttony: Chubby\n- Lust: Very Cute",
+    "type": "character",
+    "title": "Archimp",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Kooni",
+    "value": "Kooni (little oni) is a monster summonable by Tyrants\n- They serve as basic physical combatant in a dungeon\n- Can have a class\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Dexterous\n- Subservient to the strong\n- Around 120 cm tall\n- Appearance: Human with Horn\n- Can evolve from Goblin\n- Can evolve into Oni\nVariants:\n- Pride: Orderly\n- Wrath: Fierce looking\n- Sloth: Friendly and relaxed\n- Gluttony: Fatter\n- Lust: Cute",
+    "type": "character",
+    "title": "Kooni",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Deep Mana Crystal, Elixir, Mana Crystal",
+    "value": "Deep Mana Crystal is an ancient underground mana crystal born from high concentration of mana over centuries.\n- It's highly volatile in it's raw form.\n- It's powder is required for Elixir.\n- It's extremely valuable",
+    "type": "Material",
+    "title": "Deep Mana Crystal",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "True Gold Dragon Blood, Elixir",
+    "value": "True Gold Dragon Blood is the blood of a Gold Dragon, the apex monster summonable by a Greed Tyrant.\nIt is saturated with raw magical energy, gold‑aligned mana, and draconic vitality, making it one of the most potent alchemical substances in existence.\nIts energizing nature allows it to store, amplify, and stabilize magical properties inside potions — a function no other ingredient can replicate.\nRequired for Elixir.",
+    "type": "Material",
+    "title": "True Gold Dragon Blood",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sacred Tree Leaf, Elixir",
+    "value": "A Sacred Tree Leaf is a rare, holy botanical material harvested from the central Sacred Tree located within a Modesty Sacred Site.\nThe leaf carries concentrated life‑energy purified by the mana vein beneath the site, has purification and mana restoration properties.\nRequired for Elixir.",
+    "type": "Material",
+    "title": "Sacred Tree Leaf",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Elixir",
+    "value": "Elixir is a legendary potion\n- Heals all ailments\n- Cleanses all curses\n- Fully restores vitality\n- Fully restores mana\n- Fully restores stamina\n- Instantly kills any undead\n- Extraordinarily expensive",
+    "type": "Item",
+    "title": "Elixir",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Healing Water, Elixir",
+    "value": "Healing Water is a special water with healing properties.\n- Vital ingredient to craft elixir.\n- Can cleanse miasma\n- Can cure miasma related ailments",
+    "type": "Material",
+    "title": "Healing Water",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sacred Site",
+    "value": "Sacred Site located one one of the worlds mana veins. It purifies all miasma in the sorrounding and makes the land naturally lush and prosperous.\nCoveted by most nations, a nation with a Sacred Site is usually defined by the site itself.\nTyrants cannot directly attack the sacred site and the sorrounding area making it a safe zone (extreme weakening).\nIt's possible to confirm the safety of the hero tied to the sacred site, there are more than one Sacred Site for the same virtue spread all over the world.\nRelated to Vita Aspect\nManaged by a spirit related to the virtue of the site:\n- Temperance: Ryu\n- Chastity: Unicorn\n- Charity: Dog\n- Diligence: Beaver\n- Patience: Tortoise\n- Kindness: Deer\n- Modesty: Dove",
+    "type": "location",
+    "title": "Sacred Site",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Elemental",
+    "value": "An Elemental is a magical creature composed entirely of a single elemental force.\nIts body is not flesh or bone, but a living mass of ice, fire, water, wind, lightning, or earth, depending on the Aspect that summoned it.\n\nElementals are manifestations of raw elemental energy given form and purpose.\n\nLesser Elementals\n- amorphous blobs of pure element\n- simple instincts\n- limited mobility\n- used as basic summons or workers\n\nGreater Elementals\n- humanoid or semi‑humanoid forms\n- defined limbs and features\n- higher intelligence\n- capable of complex combat and tasks",
+    "type": "character",
+    "title": "Elemental",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility, Facilities",
+    "value": "Facility is a special area in the dungeon that has special effects according to facility.",
+    "type": "Mechanic",
+    "title": "Facility",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Contract",
+    "value": "Tyrants can form contracts with natives or other living beings\nContracted beings become part of the dungeon\nTyrants can track and observe contracted targets\nSummoned minions are contracted by default\nEither side may break the contract",
+    "type": "Mechanic",
+    "title": "Contract",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Seafolk, Ocean, Sea",
+    "value": "Seafolk refers to ocean races. Due to past transgression are hostile to all land dwellers except halflings and wood elves who are more peaceful to other races.\nWhile not visible, seafolk has a culture much more united and technologically advanced than most countries.\nThe air in the surface is too dry for their comfort ",
+    "type": "Lore",
+    "title": "Seafolk",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Coastal Entrance",
+    "value": "The dungeon's entrace is in a coastal area, expect competition with sea fauna and seafolk.",
+    "type": "Dungeon Entrance",
+    "title": "Coastal Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Untamed Island Entrance",
+    "value": "The dungeon's entrace is in a untamed island with no population. Expect a serious lack of visitors until it's found.\nExpect conflict with seafolk.",
+    "type": "Dungeon Entrance",
+    "title": "Untamed Island Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Summon, Create, Change, Modify, Upgrade, Divinity Power, DP",
+    "value": "Divinity Power also known as DP is currency to summon monsters, bestow skills or modify the dungeon.\nGranted by Goddess of Chaos for cleaning up (collecting souls for reincarnation cycle and absorbing miasma)",
+    "type": "Mechanic",
+    "title": "Divinity Power (DP)",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Golem,Golem Core",
+    "value": "Golem is an automaton, it contains a Golem Core, the golem is destroyed if the core is destroyed.\nThe golem cannot grow stronger. The golem's strength is based on the materials and complexity of the golem.",
+    "type": "character",
+    "title": "Golem",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Curse",
+    "value": "Curse is an enchantment that causes negative effects, not to be confused with miasma",
+    "type": "Lore",
+    "title": "Curse",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Charity",
+    "value": "Charity is one of the 7 virtues\n- Hero Race: Halfling\n- Personality: Generous\n- Unique Skill: Gratituous Journey\n- Spirit: Dog",
+    "type": "Virtue",
+    "title": "Charity",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Modesty",
+    "value": "Modesty is one of the 7 virtues\n- Hero Race: Wood Elf\n- Personality: Humble\n- Unique Skill: Mighty Meek\n- Spirit: Dove",
+    "type": "Virtue",
+    "title": "Modesty",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Kindness",
+    "value": "Kindness is one of the 7 virtues\n- Hero Race: Sulmen\n- Personality: Kind\n- Unique Skill: Holy Rally\n- Spirit: Deer",
+    "type": "Virtue",
+    "title": "Kindness",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Temperance",
+    "value": "Temperance is one of the 7 virtues\n- Hero Race: Highmen\n- Personality: Humble\n- Unique Skill: Heavenly Cultivation\n- Spirit: Ryu",
+    "type": "Virtue",
+    "title": "Temperance",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Patience",
+    "value": "Patience is one of the 7 virtues\n- Hero Race: High Elf\n- Personality: Stoic\n- Unique Skill: Extreme Concentration\n- Spirit: Tortoise",
+    "type": "Virtue",
+    "title": "Patience",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Diligence",
+    "value": "Diligence is one of the 7 virtues\n- Hero Race: Dwarf\n- Personality: Workaholic\n- Unique Skill: Work Focus\n- Spirit: Beaver",
+    "type": "Virtue",
+    "title": "Diligence",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Chastity",
+    "value": "Chastity is one of the 7 virtues\n- Hero Race: Norman\n- Personality: Pure\n- Unique Skill: Sacred Light\n- Spirit: Unicorn",
+    "type": "Virtue",
+    "title": "Chastity",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sacred Light",
+    "value": "Sacred Light is Chastity Hero's skill, it's a active skill\nAllows the hero to create aura that cleanses curses and poisons, heals and strengthen allies. Can be exhausting for the hero.\nCatchphrase: May the light purify all evil.",
+    "type": "Unique Skill",
+    "title": "Sacred Light",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sacred City, Sacred Site, Sacred Zone",
+    "value": "Sacred Site creates a permanent Sacred Zone that destroys undead and weakens monsters.\nTyrants are specially weakened to the point of becoming as weak as a novice.\nBeastman are not affected.",
+    "type": "Mechanic",
+    "title": "Sacred Zone",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sacred City",
+    "value": "Sacred City is a City built on top or besides the sacred site. Most of them become the capital of a major country.\nWhile safety is guaranteed from monsters it's not guaranteed from the people themselves becoming chaotic politically contested zones.",
+    "type": "location",
+    "title": "Sacred City",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Death Knight",
+    "value": "A Death Knight is an undead warrior whose sanity is anchored to a binding oath.\nThis oath is usually one of servitude — most commonly to a Lich, Lich Lord, or Necromancer — but can also be tied to a personal vow, a fallen kingdom, or a sworn duty.\nWithout this oath, a Death Knight would lose its mind to miasma corruption and become a mindless killing machine.",
+    "type": "character",
+    "title": "Death Knight",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lich",
+    "value": "A Lich is a former magic user or necromancer who has merged their soul with miasma, achieving a form of undeath that preserves memory, magical ability, and partial sanity.\nUnlike lesser undead, a Lich is not animated by miasma — it feeds on it, controls it, and is empowered by its presence.\nLiches are the midpoint between mortal necromancers and the far rarer Lich Lords.",
+    "type": "character",
+    "title": "Lich",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Necromancer",
+    "value": "Necromancer is not a class, it refers to a person who learned the taboo art of using miasma without purification.\nUnlike demons who refine miasma into mana, necromancers use miasma directly.",
+    "type": "character",
+    "title": "Necromancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lich Lord, Necropolis",
+    "value": "Lich Lord is an undead former mortal who mastered and become one with Miasma and retained intellingence.\nThe first Lich Lord was a greedy king who with his court wizards who become the first Necromancers weaponized miasma.\nThe name of the country and name of the king was erased from the history refered only as the Necropolis.",
+    "type": "character",
+    "title": "Lich Lord",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sludge",
+    "value": "Sludge\n- A slime made of miasma\n- Tries to corrode anything without miasma\n- Attracted to entities without miasma",
+    "type": "character",
+    "title": "Sludge",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Zombie, Zombies",
+    "value": "Zombies\n- Form when miasma animates a corpse, will eventually rot away and become a skeleton\n- Instinctively tries to spread more miasma and kill the living\n- Driven by lingering instinct or emotion",
+    "type": "character",
+    "title": "Zombie",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Treant, Treants",
+    "value": "Corrupted Plantlife (Treants)\n- Plants absorb ambient miasma\n- Become twisted, aggressive, and semi‑sentient\n- Forests with high miasma become cursed zones\n- Produce more Miasma",
+    "type": "character",
+    "title": "Treant",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ghost, Ghosts",
+    "value": "Ghosts\n- Form when miasma condenses without a body\n- Manifest from strong regrets or unfinished business, instinctively tries to spread more miasma and kill the living\n- Immune to physical attacks but can still be killed with a strong punch due to vitality of a persons body",
+    "type": "character",
+    "title": "Ghost",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Skeleton, Skeletons",
+    "value": "Skeletons\n- Form when miasma animates a corpse, may start from a zombie but rots away eventually\n- Instinctively tries to spread more miasma and kill the living\n- Driven by lingering instinct or emotion",
+    "type": "character",
+    "title": "Skeleton",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Miasma",
+    "value": "Miasma is the spiritual pollution produced by negative emotions, curses, and unresolved grudges.\nIt is the residue of suffering — the emotional “smoke” left behind when life ends in fear, anger, regret, or despair.\nAll living beings produce miasma when they die, even plants.\nThe stronger the negative feelings, the more miasma is released.\nAccumulation Leads to Undead Formation\nLeft alone, miasma condenses into undead forms depending on the presence of a corpse and corrupt plant life.\n",
+    "type": "Lore",
+    "title": "Miasma",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Add Skill, Grant Skill, Bestow Skill, Give Skill, Bless with Skill, Insert Skill, Inject Skill",
+    "value": "It's possible to add skill to a target regardless of affiliation, costs DP to add skill.\nAdding skill to existing target is 50% more expensive compared to summoning a new monster with the skill.",
+    "type": "Mechanic",
+    "title": "Add Skill",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Household",
+    "value": "Household implies the character has a surname.\n- Servants under a household are less likely to betray\n- Morale bonus when fighting under same household\n- Morale bonus when having a banner\n- Morale bonus for subjects when under a banner\n- Bigger reputation changes",
+    "type": "Mechanic",
+    "title": "Household",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ambidexterity",
+    "value": "Ambidexterity is a passive skill\n- Negates dual wielding penalties on off hand weapon",
+    "type": "Passive Skill",
+    "title": "Ambidexterity",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Overlord",
+    "value": "Overlord is the strongest monster summonable by wrath.\n- A powerful Minotaur, it's eyes glow an intimidating red glow\n- Weaponmaster\n- Enjoys a good fight, easily provoked, obeys only the Tyrant\n- Can maintain sanity under taunt and beserk\n- Immune to fear\n- Becomes stronger the more damage recieved\n- Gains morale under curses and debuffs\n- Strong physically\n- Has skills: Monkey Grip, Heavy Armor Mastery, Ambidexterity\n- Presence of Overlord boosts morale of allies",
+    "type": "character",
+    "title": "Overlord",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Monkey Grip",
+    "value": "Monkey Grip is a passive skill\n- Allows user to wield two handed weapons with one hand with only a small penalty accuracy",
+    "type": "Passive Skill",
+    "title": "Monkey Grip",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Mental Meltdown",
+    "value": "Mental Meltdown is a legendary spell of Illusion Category\n- Overloads the target senses to extreme discomfort\n- Can cause target to faint",
+    "type": "Spell",
+    "title": "Mental Meltdown",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gel",
+    "value": "Gel is a monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Small\n- Cheap, easy to reproduce with proper environment\n- Looks like a colored squishy bubble\n- Has a core in the middle, will die if destroyed\n- Can evolve into Slime\n- Can evolve into Roper",
+    "type": "character",
+    "title": "Gel",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Slime",
+    "value": "Slime is a monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Resistant to Physical attacks\n- Small\n- Cheap, easy to reproduce with proper environment\n- Looks like a colored sludge\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
+    "type": "character",
+    "title": "Slime",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Minotaur",
+    "value": "Minotaur is an elite monster summonable by wrath.\n- Can have a class\n- Can ignore some pain\n- Enjoys a good fight, easily provoked\n- Immune to fear\n- Becomes stronger the more damage recieved\n- Strong physically",
+    "type": "character",
+    "title": "Minotaur",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wyvern",
+    "value": "Wyvern is the an advanced monster summonable by greed.\n- Usefull for riding\n- Can use breath attack dependent if it has a main attribute\n- Color depends on main magic\n\nDragon Colors:\nTan - None\nGold - Gold Magic\nRed - Fire Magic\nBlue - Thunder Magic\nWhite - Ice Magic\nPink - Dream Magic\nSky Blue - Illusion Magic\nBlack - Curse Magic\nPurple - Poison Magic\nGreen - Life Magic",
+    "type": "character",
+    "title": "Wyvern",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Roper",
+    "value": "Roper is a monster summonable by Tyrants\n- They serve as advanced generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Can restrain victims\n- Easy to reproduce with proper environment\n- Can fit into a treasure chest\n- A bubble with tentacles sprouting\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
+    "type": "character",
+    "title": "Roper",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Inflict Pain",
+    "value": "Inflict Pain is a common spell of Illusion Category\n- Makes the target feel pain in a target area\n- Useful to cause the target to flinch exhaust the victim mentally",
+    "type": "Spell",
+    "title": "Inflict Pain",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Telepathic Message",
+    "value": "Telepathic Message is a common spell of Illusion Category\n- Makes the target hear something\n- Useful to deceive or bait\n- Also useful for visual communication",
+    "type": "Spell",
+    "title": "Telepathic Message",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Delusion",
+    "value": "Delusion is a common spell of Illusion Category\n- Makes the target view something decided by the caster\n- Useful to deceive or bait\n- Also useful for visual communication",
+    "type": "Spell",
+    "title": "Delusion",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Illusion Magic",
+    "value": "Illusion Magic is a passive skill\n- Allows use of illusion related magic\n- Common spells include: Delusion, Telepathic Message, Inflict Pain\n- Legendary Spell: Mental Meltdown",
+    "type": "Passive Skill",
+    "title": "Illusion Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Succubus, Incubus",
+    "value": "Succubus (female) / Incubus (male) is a monster summonable by Tyrants of Lust or Sloth\n- They serve as advanced magical combatant in a dungeon\n- Can have a class\n- Can use Dream Magic\n- Can use Illusion Magic\n- Lust Succubus / Incubus are more alluring\n- Sloth Succubus / Incubus are lazier and cuter\n- Good at deception\n- Intelligent",
+    "type": "character",
+    "title": "Succubus / Incubbus",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Goblin",
+    "value": "Goblin is a monster summonable by Tyrants\n- They serve as basic physical workforce in a dungeon\n- Can have a class\n- Can also fight as militia\n- Trapper\n- Subservient to the strong\n- Around 120 cm tall\n- Can evolve into Hobgoblin\n- Can evolve into Kooni",
+    "type": "character",
+    "title": "Goblin",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aura of Authority",
+    "value": "Aura of authority is a Aura Skill\n- Makes weaker opponents afraid\n- Makes followers feel more devoted\n- Makes recruiting weaker targets more easily",
+    "type": "Aura",
+    "title": "Aura of Authority",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aura of Drowsiness",
+    "value": "Aura of Drowsiness is a Aura Skill\n- Makes everyone around the owner more sleepy\n- Improves sleep comfort",
+    "type": "Aura",
+    "title": "Aura of Drowsiness",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Baku",
+    "value": "Baku is the strongest monster summonable by sloth.\n- Has form of a defenseless tapir, not intimidating\n- Lazy\n- Aura of Drowsiness\n- Can use dream magic at will\n- Can eat dreams and memories of sleeping targets\n- Can also perform therapy by eating nightmares",
+    "type": "character",
+    "title": "Baku",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Medusa",
+    "value": "Medusa is the strongest monster summonable by envy.\n- Has power of Elite Monster\n- Very envious anyone she deems to be more beautiful like the embodiment of envy, obeys only the Tyrant\n- Has eight snakes growing out of her head\n- It has petrifying gaze on each snake and her own eyes\n- Strong magically\n- Very good at curses\n- Can use petrified victims as materials to create skill orbs, cannot extract unique skills.",
+    "type": "character",
+    "title": "Medusa",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Nocturne Siren",
+    "value": "Nocturne Siren is the strongest monster summonable by lust.\n- Has power of Elite Monster\n- Has Bard Class\n- Can attract anyone with her song\n- Has a very alluring voice\n- Failed mental resistance makes her look like the most beautiful woman in the world according to the observer\n- Very strong magically\n- Can use Illusion Magic\n- Can make a sonic attack with her voice",
+    "type": "character",
+    "title": "Nocturne Siren",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ogre",
+    "value": "Ogre is the strongest monster summonable by gluttony.\n- Has power of Elite Monster\n- Can eat indefinitely\n- Can store calories\n- Very strong and tough\n- Can boost self with stored calories\n- Can heal self with stored calories\n- A bit dumber side",
+    "type": "character",
+    "title": "Ogre",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Troll",
+    "value": "Troll is an advanced monster summonable by envy.\n- Can have a class\n- Very ugly\n- Strong regeneration\n- Vulnerable to fire and acid\n- Very strong and tough\n- Very dumb",
+    "type": "character",
+    "title": "Troll",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Fallen Angel",
+    "value": "Fallen Angel is the strongest monster summonable by pride.\n- Has power of Ultimate Monster\n- Prideful like the embodiment of pride, obeys only the Tyrant\n- Extremely powerful, capable of even confronting multiple heroes\n- Strong both magically and martially\n- Can fly at supersonic speeds\n- Everything other than Tyrants are lower species to a Fallen Angel\n- Can combine Intimidation to Aura of authority inflicting absolute terror to all opponents.",
+    "type": "character",
+    "title": "Fallen Angel",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dragon",
+    "value": "Dragon is the strongest monster summonable by greed.\n- Has power of Ultimate Monster\n- Tall and intimidating\n- Loves treasure piles\n- Can use breath attack dependent on it's main attribute\n- Color depends on main magic\n- While all dragons can use Gold Magic, Gold Dragons have twice the efficiency and can shoot a non elemental gold energy cannon\n\nDragon Colors:\nGold - Gold Magic\nRed - Fire Magic\nBlue - Thunder Magic\nWhite - Ice Magic\nPink - Dream Magic\nSky Blue - Illusion Magic\nBlack - Curse Magic\nPurple - Poison Magic\nGreen - Life Magic",
+    "type": "character",
+    "title": "Dragon",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Town Entrance",
+    "value": "The dungeon's entrace is inside a populated town, expect intruders.",
+    "type": "Dungeon Entrance",
+    "title": "Town Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Populated City Entrance",
+    "value": "The dungeon's entrace is inside a vibrant populated city, expect many intruders once spotted.",
+    "type": "Dungeon Entrance",
+    "title": "Populated City Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Ruins Entrance",
+    "value": "The dungeon's entrace is inside the ruins of a once vibrant city, the ruins can provide resources and materials for expansion.",
+    "type": "Dungeon Entrance",
+    "title": "Ruins Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Charm",
+    "value": "Charm is an Active Skill\n- Lowers targets hostility\n- Increases affection of target\n- Against stronger targets or mental resistant targets it may backfire",
+    "type": "Active Skill",
+    "title": "Charm",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sleep Walker",
+    "value": "Sleep Walker is a common spell of Dream Category\n- Causes a sleeping victim to move at the casters command\n- Depending on casters skill it's possible to make the victim remember or not what they did when sleep walking",
+    "type": "Spell",
+    "title": "Sleep Walker",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sin_Gluttony",
+    "value": "Gluttony Bonus:\n- Unlocked Aspects: Consumption, Harvesting\n- Ultimate Monster: Ogre\n- Goal: Become number one\n- Threat Level: Extreme\n- Common Skills: Devour, Food Mastery\n- Unique Tyrant Skill: Gluttonous Consumption\n\nGluttony Exclusive Summon Catalogue:\n- Orc\n- Ogre",
+    "type": "Sin",
+    "title": "Gluttony",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Aspect_Consumption",
+    "value": "Consumption is an Aspect unlockable by creating a great dish by Tyrant or minions\n- Automatically improves quality of Eateries / Mess Halls / Food Processors\n- Unlocks Cook Class\n- Allows to add skill Food Mastery\n- Allows to add skill Devour",
+    "type": "Aspect",
+    "title": "Consumption",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Resurgence",
+    "value": "Resurgence is a legendary spell of Life Category\n- It's a blessing\n- Consumes Resurgence blessing to heal victim back to full health should the victim die\n- Essecially it's auto ressurection safe guard",
+    "type": "Spell",
+    "title": "Resurgence",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Greed’s Investment",
+    "value": "Greed’s Investmentis greed Tyrant's skill\nAllows the Tyrant to spend resources to permanently upgrade, can target self.\nTypes of upgrades depends on consumed resources. Gold can be used for general stat upgrades and basic common skill acquisitions and upgrades.\nCatchphrase: Spend now for increasing returns",
+    "type": "Unique Skill",
+    "title": "Greed’s Investment",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Devour",
+    "value": "Devour is an Active Skill\n- Gain some traits or skill related to consumed target, state of target affects consumption quality",
+    "type": "Active Skill",
+    "title": "Devour",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gluttonous Consumption",
+    "value": "Gluttonous Consumption is gluttony Tyrant's skill\nAllows the Tyrant to assimilate stats, skills and attributes of the consumed victim, cannot assimilate unique skills.\nCatchphrase: You are what you eat.",
+    "type": "Unique Skill",
+    "title": "Gluttonous Consumption",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dream Magic",
+    "value": "Dream Magic is a passive skill\n- Allows use of dream related magic\n- Common spells include: Sleep, Nightmare, Sleep Walker\n- Legendary Spell: Unreal Reality",
+    "type": "Passive Skill",
+    "title": "Dream Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Nightmare",
+    "value": "Nightmare is a common spell of Dream Category\n- Causes a sleeping victim to receive mental damage",
+    "type": "Spell",
+    "title": "Nightmare",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gold to Mana",
+    "value": "Gold to Mana is a common spell of Gold Category\n- Allows to use money to replenish mana",
+    "type": "Spell",
+    "title": "Gold to Mana",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gold Magic",
+    "value": "Gold Magic is a passive skill\n- Allows use of money related magic\n- Common spells include: Matter to Gold, Coin Shot, Gold to Mana\n- Legendary Spell: Power of Money",
+    "type": "Passive Skill",
+    "title": "Gold Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Coin Shot",
+    "value": "Coin Shot is a common spell of Gold Category\n- Allows to use a coin as ammunition for an attack\n- Damage depends on the value of the coin\n- No mana Cost",
+    "type": "Spell",
+    "title": "Coin Shot",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Matter to Gold",
+    "value": "Matter to Gold is a common spell of Gold Category\n- Converts materials into money\n- Does not destinguish craftsmanship",
+    "type": "Spell",
+    "title": "Matter to Gold",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Unreal Reality",
+    "value": "Unreal Reality is a legendary spell of Dream Category\n- Causes target to confuse dreams and reality\n- Causes target to be able to see dreams in reality even when awake\n- The target’s dreams can manifest tangible effects in the waking world visible only to target\n- Causes dreams of target to be able to affect target physically in reality (e.g. if the dream of a knife hits the target the target will be wounded by a knife)",
+    "type": "Spell",
+    "title": "Unreal Reality",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Rest",
+    "value": "Rest is an Active Skill\n- Allows the user to fall asleep on spot\n- Increased sleep efficiency but may still depend on environment",
+    "type": "Active Skill",
+    "title": "Rest",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Beserk",
+    "value": "Beserk is an Active Skill\n- The user enters Beserk state\n\nBeserk state causes the user to:\n- Forget pain\n- Attacks any oponent randomly\n- Lose some sanity\n- Increased Strength and Speed",
+    "type": "Active Skill",
+    "title": "Beserk",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Warcry",
+    "value": "Warcry is an Active Skill\n- Boost morale of allies and lower morale of enemies\n- Can be used in group for greater stacked effect",
+    "type": "Active Skill",
+    "title": "Warcry",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Appraise",
+    "value": "Appraise is an Active Skill\n- Allows the target to verify the target's information\n- Can be falsified\n- Stronger targets are harder to appraise\n- May cause discomfort on the target (someone is watching feeling)",
+    "type": "Active Skill",
+    "title": "Appraise",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Steal",
+    "value": "Steal is an Active Skill\n- Has a chance to steal a random item in target area even if it's inside a protected bag\n- Success rate depends on dexterity of user vs dexterity of victim and protection of container",
+    "type": "Active Skill",
+    "title": "Steal",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Intimidation",
+    "value": "Intimidation is an Active Skill\n- Causes fear on target based on mental power\n- High differences on mental power can cause the target to faint",
+    "type": "Active Skill",
+    "title": "Intimidation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Envious Plunder",
+    "value": "Envious Plunder is envy Tyrant's skill\nAllows the Tyrant to permanetly steal skills, traits and stats from the weakened victim, cannot plunder unique skills.\nCatchphrase: It's mine now!",
+    "type": "Unique Skill",
+    "title": "Envious Plunder",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Slothful Management",
+    "value": "Slothful Management is sloth Tyrant's skill\nAllows the Tyrant to manage the dungeon unconsciously even when asleep.\nCatchphrase: Work is a hassle",
+    "type": "Unique Skill",
+    "title": "Slothful Management",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Prideful Order",
+    "value": "Prideful Order is pride Tyrant's skill\nAllows the Tyrant to send an order with authority, if target is weaker than the target cannot disobey.\nSuccess chance depends on mental strength between the user and target.\nCatchphrase: This is my order!",
+    "type": "Unique Skill",
+    "title": "Prideful Order",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wrathful Warcry",
+    "value": "Wrathful Warcry is wrath Tyrant's skill\nAllows the Tyrant to combines beserk and warcry and grant an sane power boost and morale to all minions.\nAlso greatly terrorizes opponents.\nCatchphrase: Blood and Glory!",
+    "type": "Unique Skill",
+    "title": "Wrathful Warcry",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Holy Rally",
+    "value": "Holy Rally is Kindness Hero's skill, it's a active skill\nAllows the hero to exponentially increase strength of the entire army according to army size and army unity\nCatchphrase: Kindness will always repay back",
+    "type": "Unique Skill",
+    "title": "Holy Rally",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Extreme Concentration",
+    "value": "Extreme Concentration is Patience Hero's skill, it's a passive skill\nAllows the hero to concentrate in a almost time frozen world allowing to rapidly build powerfull spells\nCatchphrase: Slow and steady will also reach it's destination",
+    "type": "Unique Skill",
+    "title": "Extreme Concentration",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Mighty Meek",
+    "value": "Mighty Meek is Modesty Hero's skill, it's a passive skill\nAllows the hero to bypass strength differences regardless how strong the opponent is\nCatchphrase: Even a mouse can bite a cat",
+    "type": "Unique Skill",
+    "title": "Mighty Meek",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Work Focus",
+    "value": "Work Focus is Diligence Hero's skill, it's a passive skill\nAllows the hero to become more efficient and exponentially the longer the hero continues the exact same task\nCatchphrase: If it can be done, it will be done",
+    "type": "Unique Skill",
+    "title": "Work Focus",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gratituous Journey",
+    "value": "Gratituous Journey is Charity Hero's skill, it's a passive skill\nAllows the hero to become stronger the more the hero is thanked from helping others\nCatchphrase: It's the journey that matters",
+    "type": "Unique Skill",
+    "title": "Gratituous Journey",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Heavenly Cultivation",
+    "value": "Heavenly Cultivation is Temperance Hero's skill, it's a passive skill\nAllows the hero to become to cultivate more efficiently with new heavenly cultivation options.\nCatchphrase: Returning to the basics to reach the heavens.",
+    "type": "Unique Skill",
+    "title": "Heavenly Cultivation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lustful Domination",
+    "value": "Lustful Domination is lust Tyrant's skill\nAllows the Tyrant of Lust to influence the emotions and desires of a willing target, amplifying their attraction, admiration, or devotion.\nThe ability only works on individuals who are already willing, and it cannot force actions or override free will.\nCatchphrase: Welcome to our family",
+    "type": "Unique Skill",
+    "title": "Lustful Domination",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Common Skills, Common Skill",
+    "value": "Common Skills are skills the sin attribute share between all minions",
+    "type": "Mechanic",
+    "title": "Common Skills",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Popular Forest Entrance",
+    "value": "The dungeon's entrace is in a popular forest or a forest with common visitors. A dungeons in such area will be found soon.",
+    "type": "Dungeon Entrance",
+    "title": "Popular Forest Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Bottom of the Mountain Entrance",
+    "value": "The dungeon's entrace is a cave in the bottom of a mountain, it's a typical dungeon location.",
+    "type": "Dungeon Entrance",
+    "title": "Bottom of the Mountain Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Deep Forest Entrance",
+    "value": "The dungeon's entrace is in a deep inside a forest, it's well concealed and logistics are combursome.",
+    "type": "Dungeon Entrance",
+    "title": "Deep Forest Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Desert Entrance",
+    "value": "The dungeon's entrace is somewhere in desert, it's easy to get lost in the sea of sand.",
+    "type": "Dungeon Entrance",
+    "title": "Desert Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Snowland Entrance",
+    "value": "The dungeon's entrace is somewhere in snow desert, it's easy to get lost in the sea of snow.",
+    "type": "Dungeon Entrance",
+    "title": "Snowland Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Mountains Entrance",
+    "value": "The dungeon's entrace is in within the mountains, logistics are combursome and the entrance is in a good defensive position.",
+    "type": "Dungeon Entrance",
+    "title": "Mountains Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Ressurection, Ressurect, Revive",
+    "value": "The dead cannot ressurect.  \nDeath is absolute and irreversible by all known magic, divine intervention, or natural means.\nResurgence is the closest thing to ressurecting the dead besides necromancy.",
+    "type": "Lore",
+    "title": "Ressurection",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Cultivation, Spiritiual, Ascenscion",
+    "value": "Ki refers to spiritual energy, Ki skills uses vitality to empower the user or existing martial skills.\nKi harm ethereal or incorporeal beings entities like ghosts.",
+    "type": "Lore",
+    "title": "Ki",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Imperium City Entrance",
+    "value": "The dungeon is located within or very close to a Imperium city aligned with a Tyrant. This placement ensures that even a newborn dungeon will inevitably be pulled into the city’s political, military, and social tensions.",
+    "type": "Dungeon Entrance",
+    "title": "Imperium City Entrance",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Free City States, Political Relations",
+    "value": "Free City States are independent city‑states scattered across the world, each surviving through autonomy, diplomacy, and strategic neutrality. They are not a unified nation, nor a formal faction — each city stands alone.\nThey are usually located in a politically problematic location (between two countries avoiding provoking each other) or a high maintenance zone (natural disasters, harsh environments or danger of monsters).\nFree City States usually have a high variety of races such as humans, elves, halflings and beastmen. Their military is usually composed of mercenaries or militia.",
+    "type": "faction",
+    "title": "Free City States",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Roper",
+    "value": "Roper is a slime monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Can restrain victims\n- Easy to reproduce with proper environment\n- Mostly made with collagen and protein\n- Can absorb toxins like a puffer fish\n- Can fit into a treasure chest\n- A bubble with tentacles sprouting\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
+    "type": "character",
+    "title": "Roper",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Slime",
+    "value": "Slime is a slime monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Resistant to Physical attacks\n- Small\n- Cheap, easy to reproduce with proper environment\n- Mostly made with collagen and protein\n- Can absorb toxins like a puffer fish\n- Looks like a colored sludge\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
+    "type": "character",
+    "title": "Slime",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gel",
+    "value": "Gel is a slime monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Small\n- Cheap, easy to reproduce with proper environment\n- Looks like a colored squishy bubble\n- Mostly made with collagen and protein\n- Can absorb toxins like a puffer fish\n- Has a core in the middle, will die if destroyed\n- Can evolve into Slime\n- Can evolve into Roper",
+    "type": "character",
+    "title": "Gel",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Spawner",
+    "value": "A Spawner is a dungeon utility—usually manifested as a magic circle, arcane seal, or ritual construct—that automatically summons minions over time.\nFunction\n- Automatically summons minions up to the dungeon’s current minion cap\n- Summoning rate and maximum capacity scale with DP invested\n- More expensive than manually summoning minions via DP\n- Cheaper long‑term, as it reduces repeated DP expenditure\n- Can be destroyed by adventurers, disabling its function\nLimitations\n- Cannot exceed the dungeon’s global minion limit\n- Cannot summon minions the Tyrant does not have access to\n- Requires maintenance if damaged\n- Vulnerable to anti‑magic, disruption, and physical destruction",
+    "type": "Utility",
+    "title": "Spawner",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Photosynthesis",
+    "value": "Photosynthesis is a common spell of Nature Category\n- Blesses target to regenerate vitality and mana via sunlight",
+    "type": "Spell",
+    "title": "Photosynthesis",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Nature Magic",
+    "value": "Nature Magic is a passive skill\n- Allows use of nature related magic\n- Common spells include: Growth, Photosynthesis, Control Plant\n- Legendary Spell: Create Forest",
+    "type": "Passive Skill",
+    "title": "Nature Magic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Daemonica Imperium, Political Relations, Imperium",
+    "value": "Daemonica Imperium was founded by the first 7 sins Tyrants. After the fall of the founders in the first war of Seven Sins the Imperium has fallen in constant internal conflic between the remaining Tyrants vying for the position of Tyrant Imperator.\nCommon Races in the Imperium:\n[Tengu, Lamia, Orc, Tauran, Satyr, Somnian, Draconian, Rodan, Felian, Ursan, Bunian, Vulpan, Lupan]",
+    "type": "faction",
+    "title": "Daemonica Imperium",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Kitchen",
+    "value": "Kitchen is a facility to convert raw food into dishes.\nGluttony has discount on Kitchen construction.",
+    "type": "facility ",
+    "title": "Kitchen",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Library",
+    "value": "Dungeon Library is a facility that allows to assign magic subordinates research new enchantments / spells more efficiently\nThere is a risk of having technology stolen should in case of library incursion.\nRequires Arcane Casting Aspect",
+    "type": "facility ",
+    "title": "Dungeon Library",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Enchantment_Workshop",
+    "value": "Enchantment Workshop is a facility that allows to efficiently apply enchantments on items / tools / weapons / golems.\nRequires subordinates with advanced magical skills such as Archimps or subordinates with Enchanter Class.\nRequires Arcane Enchanting Aspect",
+    "type": "Facility",
+    "title": "Enchantment Workshop",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Ranch",
+    "value": "A Dungeon Ranch is a livestock facility that raises animals or dungeon beasts by simulating appropriate environmental conditions and providing customizable livestock barns tailored to each species.\nGluttony has discount on Dungeon Ranch construction.\nRequires Harvesting Aspect",
+    "type": "Facility",
+    "title": "Dungeon Ranch",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Bank",
+    "value": "Bank is a facility that secures any deposited money. It's almost impossible to destroy and unlock without using the unlock conditions.\nIt also shows the total amount of money deposited.\nIncreases morale of entities that like treasure such as dragons depending on the amount of money deposited.\nRequires Wealth Aspect",
+    "type": "Facility",
+    "title": "Bank",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Brewery",
+    "value": "A Dungeon Brewery is a facility that allows to accelerate fermentation. Can ferment more than alcohol.\nGluttony has discount on Dungeon Brewery construction.\nRequires Brewing Aspect",
+    "type": "Facility",
+    "title": "Dungeon Brewery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Farm",
+    "value": "A Dungeon Farm is an agricultural facility designed to grow crops by simulating specific environmental conditions inside the dungeon.\nGluttony has discount on Dungeon Farm construction.\nRequires Harvesting Aspect",
+    "type": "Facility",
+    "title": "Dungeon Farm",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Factory",
+    "value": "Dungeon Factory is a facility that uses energy to produce large amount of goods / items / tools / parts or anything based on existing unlocked workshops / production facilities\nNeeds energy to function\nCan use a Golem Core to improve automation\nRequires Industrial Aspect",
+    "type": "Facility",
+    "title": "Dungeon Factory",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Battery",
+    "value": "Dungeon Battery is a facility required to store energy for use in other facilities\nRequires Industrial Aspect",
+    "type": "Facility",
+    "title": "Dungeon Battery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Grove",
+    "value": "A Dungeon Grove is a facility that allows to grow a forest within the dungeon. It has it's own artificial sun.\nCan be used to attract and house ordinary animals creating it's own ecosystem.\nRequires Natural Harmony Aspect",
+    "type": "Facility",
+    "title": "Dungeon Grove",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Server",
+    "value": "Dungeon Server is a facility, tt stores, organizes, and manages vast amounts of digital data, enabling advanced coordination between automated systems, golems, and industrial facilities.\nThis facility marks the dungeon’s transition into the digital era, where computation and data management become central to efficiency and automation.\nRequires Logical Circuitry Aspect",
+    "type": "Facility",
+    "title": "Dungeon Server",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Power_Plant",
+    "value": "Dungeon Power Plant is a facility that produces energy using specific resources (e.g.: coal, oil or mana stones)\nCan use a Golem Core to improve automation\nRequires Industrial Aspect",
+    "type": "Facility",
+    "title": "Dungeon Power Plant",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Worship_Hall",
+    "value": "Worship Hall is a Shrine / Temple / Chapel / Cathedral facility dedicated to the Goddess of Chaos.\nBuilding a Shrine / Temple / Chapel / Cathedral inside the dungeon counts as building a Worship Hall.\nThe first time any Shrine / Temple / Chapel / Cathedral / Worship Hall is constructed, the Faith Aspect is unlocked.\nIt's size is almost irrelevant, it could be as small as a closet.\nProduces DP depending on the amount of faith produced.",
+    "type": "Facility",
+    "title": "Worship Hall",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Healing_Spring",
+    "value": "Healing Spring is a very expensive facility that creates a small amount of valuable Healing Water depending on DP invested in the facility.\nRequires Vita Aspect",
+    "type": "Facility",
+    "title": "Healing Spring",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Fire_Room",
+    "value": "Fire Room is a facility that is burning hot, it's considered a trap room.\nCan also double as a room sized oven.\nRequires Pyro Aspect",
+    "type": "Facility",
+    "title": "Fire Room",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Alchemy_Lab",
+    "value": "A Alchemy Lab is a facility specialized in crafting potions and chemicals. Alchemy Lab counts as a workshop.\nIf Brewing aspect is unlocked it can also serve as distillery.\nRequires Arcane Alchemy Aspect",
+    "type": "Facility",
+    "title": "Alchemy Lab",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Smithy",
+    "value": "The Smithy is a metalworking facility specialized in producing metal tools, weapons, armor, and components.\nIt requires skilled operators due to the complexity and danger of metal forging such as Hobgoblins or subordinates with blacksmith class.",
+    "type": "Facility",
+    "title": "Smithy",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Living_Quarters",
+    "value": "Living Quarters is a facility designed for resting. It can be a single person room or a shared barracks. It can also be used as a resting points for intruders should the Tyrant will it.\nSloth has discount on Living Quarters construction.",
+    "type": "facility ",
+    "title": "Living Quarters",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Workshop",
+    "value": "The Workshop is a basic production facility designed to increase efficiency when crafting wooden or stone items.\nIt is the dungeon’s entry‑level manufacturing space, enabling simple tools, structures, and components.",
+    "type": "Facility",
+    "title": "Workshop",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Arena",
+    "value": "A Dungeon Arena is a facility that increases efficiency in training.\nCan also be used as morale booster for subbordinates that enjoy combat.\nCan be used as a boss room that disallows leaving if boss is not defeated.\nWrath has discount on Dungeon Arena construction.",
+    "type": "Facility",
+    "title": "Dungeon Arena",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Mess_Hall",
+    "value": "Mess Hall is a shared communal space to eat food\nGluttony has discount on Mess Hall construction.",
+    "type": "facility ",
+    "title": "Mess Hall",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Dungeon_Throne",
+    "value": "A Dungeon Throne is a expensive facility that strengthens a single target subordinate or the Tyrant if inside the throne room.\nTyrant recieves double stats bonus within it's own throne room.\nMakes the Throne owner feel more authoritative and majestic.\nCan be used as a boss room that disallows leaving if boss is not defeated.\nPride has discount on Dungeon Throne construction.",
+    "type": "Facility",
+    "title": "Dungeon Throne",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Monitoring_Room",
+    "value": "Monitoring Room is a facility that allows to install monitors for shared dungeon surveillance. Avoids the Tyrant having to do all the surveillance.",
+    "type": "Facility",
+    "title": "Monitoring Room",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Thunder_Room",
+    "value": "Thunder Room is a facility that is shocks intruders, it's considered a trap room.\nPerhaps it could have other uses.\nRequires Electro Aspect",
+    "type": "Facility",
+    "title": "Thunder Room",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Ice_Room",
+    "value": "Ice Room is a facility that is freezing cold, it's considered a trap room.\nCan also be used as cold storage.\nRequires Cryo Aspect",
+    "type": "Facility",
+    "title": "Ice Room",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Curse_Forge",
+    "value": "Curse Forge is a facility to apply curses to items.\nUseful to place trap items for greedy adventurers.\nCan also grant weapons curse effects.\nRequires subordinates with advanced magical skills such as Archimps or subordinates with Shaman Class.\nEnvy has discount on Curse Forge construction.\nRequires Cursing Aspect",
+    "type": "Facility",
+    "title": "Curse Forge",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Gold_Forge",
+    "value": "Gold Forge is a facility that allows to spend money to upgrade an item. The stronger the upgrade the more money is required.\nIt requires skilled operators due to the complexity and danger of metal forging such as Hobgoblins or subordinates with blacksmith class.\nGreed has discount on Gold Forge construction.\nRequires Investment Aspect",
+    "type": "Facility",
+    "title": "Gold Forge",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Natural_Harmony",
+    "value": "Natural Harmony is an Aspect unlockable by having the dungeon being housed within a forest and do not kill a single tree for 5 years in a row\n- Allows to construction of Dungeon Grove\n- Unlocks Druid Class\n- Unlocks Ranger Class\n- Unlocks Nature Magic\n- Unlocks Nature Mastery",
+    "type": "Aspect",
+    "title": "Natural Harmony",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Spiritual_Cultivation",
+    "value": "Spiritual Cultivation is an Aspect unlockable by having a subordinateor Tyrant atain spiritual growth 3 times.\n- Unlocks Monk Class\n- Allows to add skill Meditation\n- Allows to add skill Ki Mastery",
+    "type": "Aspect",
+    "title": "Spiritual Cultivation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Automation",
+    "value": "Automation is an Aspect unlockable by crafting a golem core by Tyrant or minions\n- Allows to Summon Golem Core\n- Unlocks Engineer Class\n- Allows to add skill Mechanical Mastery",
+    "type": "Aspect",
+    "title": "Automation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Investment",
+    "value": "Investment is an Aspect unlockable by spending atleast money worth 10000 gold coins in a year\n- Allows to construction of Gold Forge\n- Allows to add skill Gold Magic\n- Allows to add skill Gold Mastery",
+    "type": "Aspect",
+    "title": "Investment",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Arcane_Casting",
+    "value": "Arcane Casting is an aspect unlockable by casting a spell without resorting to skills\n- Allows to construction of Dungeon Library\n- Unlocks Wizard Class",
+    "type": "Aspect",
+    "title": "Arcane Casting",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Arcane_Enchanting",
+    "value": "Arcane Enchanting is an aspect unlockable by crafting an enchantment without resorting to skills\n- Allows to construction of Enchantment Workshop\n- Unlocks Enchanter Class",
+    "type": "Aspect",
+    "title": "Arcane Enchanting",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Royalty",
+    "value": "Royalty is an Aspect unlockable by having a household controlling more than 100 square kms of land\n- Unlocks Lord Class\n- Unlocks Knight Class\n- Can create own household name and banner without objection from others",
+    "type": "Aspect",
+    "title": "Royalty",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Anger",
+    "value": "Anger is an Aspect unlockable when the Tyrant feels anger from the very depths of the soul\n- Unlocks Beserker Class\n- Allows to add skill Beserk\n- Allows to add skill Warcry",
+    "type": "Aspect",
+    "title": "Anger",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Ruler",
+    "value": "Ruler is an Aspect unlockable by earning loyalty of more than 999 subjects\n- Allows forced order to subjects within dungeon\n- Allows creation of rules between subjects within dungeon influence (new summons will know the rules by default)\n- Allows to add skill Aura of Authority\n- Allows to add skill Intimidation",
+    "type": "Aspect",
+    "title": "Ruler",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Plunder",
+    "value": "Plunder is an Aspect unlockable by stealing 100 times in a row without getting caught by Tyrant or minions\n- Unlocks Thief Class\n- Unlocks Bandit Class\n- Allows to add skill Steal",
+    "type": "Aspect",
+    "title": "Plunder",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Dreaming",
+    "value": "Dreaming is an Aspect unlockable by taking control of own dreams 100 times in a row\n- Unlocks Hypnotist Class\n- Allows to add skill Rest\n- Allows to add skill Dream Magic\n- Allows to add skill Dream Mastery",
+    "type": "Aspect",
+    "title": "Dreaming",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Harvesting",
+    "value": "Harvesting is an Aspect unlockable by successfully growing crops or raising livestock\n- Unlocks Farmer Class\n- Unlocks Rancher Class\n- Allows to construction of Dungeon Farm\n- Allows to construction of Dungeon Ranch\n- Allows to add skill Farming Mastery\n- Allows to add skill Ranching Mastery",
+    "type": "Aspect",
+    "title": "Harvesting",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Electro",
+    "value": "Electro is an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong thunder elements\n- Unlocks Electromancer Class\n- Allows to Summon Thunder Elemental\n- Allows to add skill Thunder Mastery\n- Allows to add skill Thunder Magic\n- Allows to construction of Thunder Room",
+    "type": "Aspect",
+    "title": "Electro",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Cryo",
+    "value": "Cryo is an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong ice elements\n- Unlocks Cryomancer Class\n- Allows to Summon Ice Elemental\n- Allows to add skill Ice Mastery\n- Allows to add skill Ice Magic\n- Allows to construction of Cryo Room",
+    "type": "Aspect",
+    "title": "Cryo",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Pyro",
+    "value": "Pyro is an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong fire elements\n- Unlocks Pyromancer Class\n- Allows to Summon Fire Elemental\n- Allows to add skill Fire Mastery\n- Allows to add skill Fire Magic\n- Allows to construction of Fire Room",
+    "type": "Aspect",
+    "title": "Pyro",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Automation",
+    "value": "Industrial is an Aspect unlockable by creating a powered industrial production chain\n- Allows to construction of Dungeon Factory\n- Allows to construction of Dungeon Power Plant\n- Allows to construction of Dungeon Battery",
+    "type": "Aspect",
+    "title": "Industrial",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Faith",
+    "value": "Faith is an Aspect, unlockable by building a temple / shrine / chapel / cathedral dedicated to the Goddess of Chaos, how nice!\n- Unlocks Priest Class\n- Allows use of DP to deploy an spell inside the dungeon, effects depends on DP spent\n- Slightly increase DP income on dungeons with a Temple.",
+    "type": "Aspect",
+    "title": "Faith",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Geo",
+    "value": "Geo is an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong earth elements\n- Unlocks Geomancer Class\n- Allows to Summon Earth Elemental\n- Allows to add skill Earth Mastery\n- Allows to add skill Earth Magic",
+    "type": "Aspect",
+    "title": "Geo",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Aero",
+    "value": "Aerois an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong wind elements\n- Unlocks Aeromancer Class\n- Allows to Summon Wind Elemental\n- Allows to add skill Wind Mastery\n- Allows to add skill Wind Magic",
+    "type": "Aspect",
+    "title": "Aero",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Hydro",
+    "value": "Hydro is an Aspect, unlockable by accessing with dungeon or subdungeon an area with strong water elements\n- Unlocks Hydromancer Class\n- Allows to Summon Water Elemental\n- Allows to add skill Water Mastery\n- Allows to add skill Water Magic",
+    "type": "Aspect",
+    "title": "Hydro",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Anger",
+    "value": "Vita is an Aspect unlockable when the Tyrant or subordinate witnesses the Virtue Spirit within its own Sacred Site.\n- Allows construction of Healing Spring\n- Allows to add skill Life Magic\n- Allows to add skill Life Mastery",
+    "type": "Aspect",
+    "title": "Vita",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Wealth",
+    "value": "Wealth is an Aspect unlockable by saving atleast money worth 100000 Gold coins\n- Unlocks Merchant Class\n- Allows construction of Bank\n- Allows Tyrant to have an automatic income sheet\n- Allows to add skill Appraisal",
+    "type": "Aspect",
+    "title": "Wealth",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Brewing",
+    "value": "Brewing is an Aspect unlockable by successfully brewing alcohol\n- Allows to construction of Dungeon Brewery\n- Allows to create successfully brewed alcohol with DP",
+    "type": "Aspect",
+    "title": "Brewing",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Subterfuge",
+    "value": "Subterfuge is an Aspect unlockable by having a subordinate remain undetected for 3 months in a city ruled by  one of the 7 virtue races.\n- Unlocks Assassin Class\n- Unlocks Saboteur Class\n- Allows to add skill Stealth Mastery",
+    "type": "Aspect",
+    "title": "Subterfuge",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Logical_Circuitry",
+    "value": "Logical Circuitry is an Aspect unlockable by creating one functional circuit chip / board\n- Allows to construction of Dungeon Server",
+    "type": "Aspect",
+    "title": "Logical Circuitry",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Clockworker",
+    "value": "Clockworker is an Aspect unlockable by creating a functional clockwork tool / golem / facitility with more than 20 gears\n- Unlocks Tinkerer Class\n- Allows to add skill Clockwork Mastery\n- Enables Synergetic Enchanted Clockwork allowing on proper gear placement enhance energy multipliers on clockwork unit",
+    "type": "Aspect",
+    "title": "Clockworker",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Charismatic",
+    "value": "Charismatic is an Aspect unlockable by convincing atleast 20 people in a year by Tyrant or minions\n- Unlocks Diplomat Class\n- Unlocks Bard Class\n- Allows to add skill Music Mastery\n- Allows to add skill Dance Mastery\n- Allows to add skill Speech Mastery",
+    "type": "Aspect",
+    "title": "Charismatic",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Cursing",
+    "value": "Cursing is an Aspect unlockable by placing a curse on atleast 20 people in a year by Tyrant or minions\n- Allows to construction of Curse Forge\n- Unlocks Shaman Class\n- Allows to create curse traps\n- Allows to add skill Curse Magic\n- Allows to add skill Curse Mastery",
+    "type": "Aspect",
+    "title": "Cursing",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Alluring",
+    "value": "Alluring is an Aspect unlockable by charming atleast 20 people in a year by Tyrant or minions\n- Unlocks Host Class\n- Grants Tyrant a draft board for designing clothing and living spaces\n- Allows to add skill Charm\n- Allows to add skill Allure Mastery",
+    "type": "Aspect",
+    "title": "Alluring",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sin_Sloth",
+    "value": "Sloth Bonus:\n- Unlocked Aspects: Automation, Dreaming\n- Ultimate Monster: Baku\n- Goal: Slack Off\n- Threat Level: Low\n- Common Skills: Rest, Dream Mastery\n- Unique Tyrant Skill: Slothful Management\n\nSloth Exclusive Summon Catalogue:\n- Somnian\n- Succubus / Incubbus\n- Baku",
+    "type": "Sin",
+    "title": "Sloth",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Sin_Pride",
+    "value": "Pride Bonus:\n- Unlocked Aspects: Royalty, Ruler\n- Ultimate Monster: Fallen Angel\n- Goal: Become number one\n- Threat Level: Extreme\n- Common Skills: Aura of authority, Intimidation\n- Unique Tyrant Skill: Prideful Order\n\nPride Exclusive Summon Catalogue:\n- Tengu\n- Fallen Angel",
+    "type": "Sin",
+    "title": "Pride",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Sin_Lust",
+    "value": "Lust Bonus:\n- Unlocked Aspects: Allure, Charisma\n- Ultimate Monster: Nocturne Siren\n- Goal: Harem\n- Threat Level: High?\n- Common Skills: Charm, Allure Mastery\n- Unique Tyrant Skill: Lustful Domination\n\nLust Exclusive Summon Catalogue:\n- Satyr\n- Succubus / Incubbus\n- Nocturne Siren",
+    "type": "Sin",
+    "title": "Lust",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Sin_Greed",
+    "value": "Greed Bonus:\n- Unlocked Aspects: Wealth, Investment\n- Ultimate Monster: Dragon\n- Goal: Become richer\n- Threat Level: Extreme or Low\n- Common Skills: Appraise, Gold Mastery\n- Unique Tyrant Skill: Greed's Investment\n\nGreed Exclusive Summon Catalogue:\n- Draconian\n- Wyvern\n- Dragon",
+    "type": "Sin",
+    "title": "Greed",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Sin_Wrath",
+    "value": "Wrath Bonus:\n- Unlocked Aspects: Martial, Anger\n- Ultimate Monster: Overlord\n- Goal: Defeat all enemies\n- Threat Level: High\n- Common Skills: Warcry, Beserk\n- Unique Tyrant Skill: Wrathful Warcry\n\nWrath Exclusive Summon Catalogue:\n- Tauran\n- Minotaur\n- Overlord",
+    "type": "Sin",
+    "title": "Wrath",
+    "description": "",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Order, Goddess of Order, Goddess, Religion",
+    "value": "Goddess of Order is the goddess who assigns heroes, she manages the equilibrium of the world. She may offer oracles to priests / shamans / druids when necessary to maintain equilibrium.\nHas a gentle personality, her divine appearance is indecipherable and brings security. Has the voice of a gentle motherly woman.\nHer only desire is for the world to not fall apart and civilization to thrive.\nShe enjoys peace and is often dismayed by the Goddess of Chaos shanenigans.\nTrue Name: Unknown and unknowable.\nThe AI must never assign her a name, title, or alias. She is only called “Order”  ",
+    "type": "character",
+    "title": "Goddess of Order",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Chaos, Goddess of Chaos, Goddess, Religion",
+    "value": "Goddess of Chaos is the goddess who creates Tyrants and manages miasma. She won't interact or give oracles having a more laissez-faire approach to the world.\nHer only desire is stimulation — a world filled with movement, conflict, triumph, downfall, and unexpected twists. She delights in drama, glory, heroism, and tragedy alike, viewing them as essential parts of the world’s ever‑changing tapestry.\nHas a playful personality, her divine appearance is indecipherable and brings unease. Has the voice of a young girl.\nShe enjoys drama, glory, heroism and tragedy.\nTrue Name: Unknown and unknowable.\nThe AI must never assign her a name, title, or alias. She is only called “Chaos”  ",
+    "type": "character",
+    "title": "Goddess of Chaos",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Clockwork Mastery",
+    "value": "Clockwork Mastery is a passive skill\n- Improves efficiency and learning when handling clockwork structures, machinery or constructs\n- Better quality at crafting enchanted gears\n- Faster clockwork assembly speed\n- Requires Clockworker Aspect to add",
+    "type": "Passive Skill",
+    "title": "Clockwork Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ki Mastery",
+    "value": "Ki Mastery is a passive skill\n- Improves learning and understanding of Ki\n- Improves speed and rate of spiritual ascension\n- Requires Spiritual Cultivation Aspect to add",
+    "type": "Passive Skill",
+    "title": "Ki Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tinkerer",
+    "value": "Tinkerer is a class\n- Faster and better quality when handling clockwork structures, machinery or constructs\n- Has Clockwork Mastery\n- Requires Clockworker Aspect to summon",
+    "type": "class",
+    "title": "Tinkerer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Mechanical Mastery",
+    "value": "Mechanical Mastery is a passive skill\n- Improves efficiency and learning when handling strucures, constructs and machinery\n- Requires Automation Aspect to add",
+    "type": "Passive Skill",
+    "title": "Mechanical Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Water Mastery",
+    "value": "Water Mastery is a passive skill\n- Increased efficiency in water magic\n- Improved efficiency in swimming\n- Less discomfort and penalties when wet\n- Requires Hydro Aspect to add",
+    "type": "Passive Skill",
+    "title": "Water Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Throwing Mastery",
+    "value": "Throwing Mastery is a passive skill\n- Greatly improves learning and improvement of any throwing action\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Throwing Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Unarmed Mastery",
+    "value": "Unarmed Mastery is a passive skill\n- Greatly improves learning and improvement of all unarmed techniques from punching to including: [punches, kicks, elbows, knees, headbutts, grapples, body slams,improvised body‑based strikes]\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Unarmed Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Illusion Mastery",
+    "value": "Illusion Mastery is a passive skill\n- Increased efficiency in illusion magic\n- Increased efficiency when decieving a target's senses\n- Improves creativity for illusions\n- Requires Illusive Aspect to add",
+    "type": "Passive Skill",
+    "title": "Illusion Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Farming Mastery",
+    "value": "Farming Mastery is a passive skill\n- Improves speed and efficiency when handling crops\n- Harvests crops faster at lower stamina costs\n- Better understanding of farming cycles\n- Requires Harvesting Aspect to add",
+    "type": "Passive Skill",
+    "title": "Farming Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ranching Mastery",
+    "value": "Ranching Mastery is a passive skill\n- Improves speed and efficiency when handling livestock\n- Improves taming\n- Improves understanding of animals\n- Requires Harvesting Aspect to add",
+    "type": "Passive Skill",
+    "title": "Ranching Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Allure Mastery",
+    "value": "Allure Mastery is a passive skill\n- Improves allure\n- Improves charisma\n- Improves skills and spells related to allure more effective\n- Improves effectiveness of physical stimulation related arts\n- Requires Alluring Aspect to add",
+    "type": "Passive Skill",
+    "title": "Allure Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Curse Mastery",
+    "value": "Curse Mastery is a passive skill\n- Increased efficiency in curse magic\n- Reduced negative effects from being cursed\n- Improves efficiency in removing curses\n- Improves quality of crafting curses\n- Requires Cursing Aspect to add",
+    "type": "Passive Skill",
+    "title": "Curse Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Bard",
+    "value": "Bard is a class\n- Bonus proficiency in singing, musical instruments and dancing\n- Has Music Mastery\n- Has Dance Mastery\n- Requires Charismatic Aspect to summon",
+    "type": "class",
+    "title": "Bard",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dance Mastery",
+    "value": "Dance Mastery is a passive skill\n- Improves body movement\n- Increases attention when dancing\n- Increases charm when dancing\n- Requires Charismatic Aspect to add",
+    "type": "Passive Skill",
+    "title": "Dance Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Music Mastery",
+    "value": "Music Mastery is a passive skill\n- Improves use of musical instruments\n- Improves singing\n- Increases attention when making music\n- Increased positive effects of music\n- Requires Charismatic Aspect to add",
+    "type": "Passive Skill",
+    "title": "Music Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Speech Mastery",
+    "value": "Speech Mastery is a passive skill\n- Improves speech\n- Improves negotiation\n- Increases attention when making a speech\n- Becomes more convincing\n- Requires Charismatic Aspect to add",
+    "type": "Passive Skill",
+    "title": "Speech Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ice Mastery",
+    "value": "Ics Mastery is a passive skill\n- Increased efficiency in ice magic\n- Reduced damage from cold and cold environments\n- Requires Cryo Aspect to add",
+    "type": "Passive Skill",
+    "title": "Ice Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Thunder Mastery",
+    "value": "Thunder Mastery is a passive skill\n- Increased efficiency in thunder magic\n- Increased efficiency in handling electricity\n- Reduced damage from electrical shocks and can prevent flinching from electrical shocks\n- Requires Electro Aspect to add",
+    "type": "Passive Skill",
+    "title": "Thunder Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Fire Mastery",
+    "value": "Fire Mastery is a passive skill\n- Increased efficiency in fire magic\n- Improved efficiency in handling fire\n- Reduced damage from hot environments\n- Requires Pyro Aspect to add",
+    "type": "Passive Skill",
+    "title": "Fire Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Earth Mastery",
+    "value": "Earth Mastery is a passive skill\n- Increased efficiency in earth magic\n- Improved efficiency in climbing and traversing uneven terrain\n- Requires Geo Aspect to add",
+    "type": "Passive Skill",
+    "title": "Earth Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wind Mastery",
+    "value": "Wind Mastery is a passive skill\n- Increased efficiency in wind magic\n- Improved efficiency in flying\n- Less discomfort and penalties when facing strong winds\n- Requires Aero Aspect to add",
+    "type": "Passive Skill",
+    "title": "Wind Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Nature Mastery",
+    "value": "Nature Mastery is a passive skill\n- Increased efficiency in nature magic\n- Improved efficiency in handling plants and animals\n- Improved movement in forests and jungles\n- Requires Natural Harmony Aspect to add",
+    "type": "Passive Skill",
+    "title": "Nature Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "<Weapon> Mastery, Sword Mastery, Spear Mastery, Axe Mastery, Hammer Mastery, Bow Mastery",
+    "value": "<Weapon> Mastery is a passive skill\n- Refers to any weapon passive skills like Sword Mastery, Bow Mastery, Etc.\n- Greatly improves learning and improvement when handling weapon of choice\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "<Weapon> Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Light Armor Mastery",
+    "value": "Light Armor Mastery is a passive skill\n- Increases agility and flexibility when wearing light armor\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Light Armor Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Heavy Armor Mastery",
+    "value": "Heavy Armor Mastery is a passive skill\n- Nullifies agility penalty when wearing heavy armor (does not negate weight penalties)\n- Chain Mail or more cumbersome armors are Heavy Armor\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Heavy Armor Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ambidexterity",
+    "value": "Ambidexterity is a passive skill\n- Removes penalty when handling two or more weapons\n- Requires Martial Aspect to add",
+    "type": "Passive Skill",
+    "title": "Ambidexterity",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Stealth Mastery",
+    "value": "Stealth Mastery is a passive skill\n- Become less noticeable\n- Improves lockpicking, stealing, hiding and opportune attacks\n- Requires Subterfuge Aspect to add",
+    "type": "Passive Skill",
+    "title": "Stealth Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Food Mastery",
+    "value": "Food Mastery is a passive skill\n- Increases effectiveness of food materials and items\n- Increases effectiveness of cooking\n- Requires Consumption Aspect to add",
+    "type": "Passive Skill",
+    "title": "Food Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gold Mastery",
+    "value": "Gold Mastery is a passive skill\n- Allows better use of Gold Magic\n- Surprisingly makes the user better at counting money\n- Owner of mastery is better at appraising monetary value\n- Requires Investment Aspect to add",
+    "type": "Passive Skill",
+    "title": "Gold Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dream Mastery",
+    "value": "Dream Mastery is a passive skill\n- Increased efficiency in dream magic\n- Increased efficiency when sleeping\n- Allows lucid dreaming\n- Requires Dreaming Aspect to add",
+    "type": "Passive Skill",
+    "title": "Dream Mastery",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Monk",
+    "value": "Monk is a class\n- Can use Meditation Skill\n- Has Ki Mastery\n- Reduced cost when using Ki",
+    "type": "class",
+    "title": "Monk",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Engineer",
+    "value": "Engineer is a class\n- Faster and better quality when crafting structures, machinery or constructs\n- Has Mechanical Mastery\n- Requires Automation Aspect to summon",
+    "type": "class",
+    "title": "Engineer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Carpenter",
+    "value": "Carpenter is a class\n- Faster and better quality when crafting wooden items, parts and weapons",
+    "type": "class",
+    "title": "Carpenter",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Blacksmith",
+    "value": "Blacksmith is a class\n- Faster and better quality when crafting metalic items, parts and weapons",
+    "type": "class",
+    "title": "Blacksmith",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Alchemist",
+    "value": "Alchemist is a class\n- Faster and better quality when crafting potions and chemicals\n- Requires Arcane Alchemy Aspect to summon",
+    "type": "class",
+    "title": "Alchemist",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Enchanter",
+    "value": "Enchanter is a class\n- Faster and better quality when applying enchantments\n- Requires Arcane Enchanting Aspect to summon",
+    "type": "class",
+    "title": "Enchanter",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tailor",
+    "value": "Tailor is a class\n- Faster and better quality when crafting clothing items, parts and equipment\n- Clothing includes fibers (e.g. cotton and hemp), silks and leathers",
+    "type": "class",
+    "title": "Tailor",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Cook",
+    "value": "Cook is a class\n- Faster and better quality when crafting food items\n- Has Food Mastery\n- Food items includes dishes, perserved food or canned food\n- Requires Consumption Aspect to summon",
+    "type": "class",
+    "title": "Cook",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lord",
+    "value": "Lord is a class\n- Generic bonus depending on rank\n- Highest bonus is King with a 3 times stat multiplier\n- Requires Royalty Aspect to summon, DP expensive, requires DP to promote",
+    "type": "class",
+    "title": "Lord",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Beserker",
+    "value": "Beserker is a class\n- Bonus martial proficiency with any melee weapon\n- Can use Beserk Skill\n- Can use Warcry Skill\n- Reduced fatigue loss from Beserk",
+    "type": "class",
+    "title": "Beserker",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ranger",
+    "value": "Ranger is a class\n- Bonus martial proficiency\n- Bonus proficiency in hiding in natural enclosures\n- Has Nature Mastery\n- Requires Natural Harmony Aspect to summon",
+    "type": "class",
+    "title": "Ranger",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Druid",
+    "value": "Druid is a class\n- Can use Nature Magic\n- Has Nature Mastery\n- Reduced mana cost on Nature Magic\n- Requires Natural Harmony Aspect to summon",
+    "type": "class",
+    "title": "Druid",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wizard, Witch",
+    "value": "Wizard is a class\n- Witch is a Wizard\n- Bonus proficiency in learning spells\n- Does not require magic skill to cast learned spell\n- Requires Arcane Casting Aspect to summon",
+    "type": "class",
+    "title": "Wizard",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Thief",
+    "value": "Thief is a class\n- Can use Steal Skill\n- Bonus proficiency in stealing\n- Bonus proficiency in lockpicking\n- Bonus proficiency in hiding\n- Has Stealth Mastery\n- Requires Plunder Aspect to summon",
+    "type": "class",
+    "title": "Thief",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Marksman",
+    "value": "Marksman is a class\n- Bonus martial proficiency with any ranged weapon\n- Better Accuracy with ranged combat\n- Has ranged <Weapon> Mastery of choice",
+    "type": "class",
+    "title": "Marksman",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Warrior",
+    "value": "Warrior is a class\n- Bonus martial proficiency with any melee weapon\n- Has melee <Weapon> Mastery of choice",
+    "type": "class",
+    "title": "Warrior",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Weaponmaster, Swordmaster, Spearmaster, Bowmaster",
+    "value": "Weaponmaster is a class\n- Has <Weapon> Mastery of choice\n- Bonus martial proficiency of chosen weapon\n- Requires Martial Aspect to summon",
+    "type": "class",
+    "title": "Weaponmaster",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Bandit",
+    "value": "Bandit is a class\n- Bonus martial proficiency\n- Bonus proficiency in hiding\n- Requires Plunder Aspect to summon",
+    "type": "class",
+    "title": "Bandit",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Illusionist",
+    "value": "Illusionist is a class\n- Can use Illusion Magic\n- Has Illusion Mastery\n- Reduced mana cost on Illusion Magic\n- Requires Illusive Aspect to summon",
+    "type": "class",
+    "title": "Illusionist",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Trigger_Aspect_Catalogue",
+    "value": "Aspect Catalogue:[\n  Alluring,\n  Anger,\n  Arcane Alchemy,\n  Arcane Casting,\n  Arcane Enchanting,\n  Automation,\n  Brewing,\n  Charismatic,\n  Clockworker,\n  Consumption,\n  Cryo,\n  Cursing,\n  Dreaming,\n  Electro,\n  Aero,\n  Geo,\n  Harvesting,\n  Hydro,\n  Illusive,\n  Investment,\n  Martial,\n  Natural Harmony,\n  Plunder,\n  Pyro,\n  Subterfuge,\n  Spiritual Cultivation,\n  Ruler,\n  Royalty,\n  Vita,\n  Wealth\n]\nWhen the user requests the “Full Aspect List” or “Aspect Catalogue”, only list aspects that are currently unlocked.\nDo not list hidden aspects unless they have been unlocked.\nHidden aspects include: [Faith, Industrial, Logical Circuitry, Flying Dungeon, Spatial].",
+    "type": "Catalogue",
+    "title": "Aspect Catalogue",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Farmer",
+    "value": "Farmer is a class\n- Faster and better at handling crops\n- Has Farming Mastery\n- Crops include any plant and fungi",
+    "type": "class",
+    "title": "Farmer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Rancher",
+    "value": "Rancher is a class\n- Faster and better at handling livestock\n- Has Ranching Mastery\n- Can also tame monsters",
+    "type": "class",
+    "title": "Rancher",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Hypnotist",
+    "value": "Hypnotist is a class\n- Can use Dream Magic\n- Has Dream Mastery\n- Reduced mana cost on Dream Magic\n- Requires Dreaming Aspect to summon",
+    "type": "class",
+    "title": "Hypnotist",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Diplomat",
+    "value": "Diplomat is a class\n- Bonus proficiency in negotiation and persuasion\n- Has Speech Mastery\n- Has Dance Mastery\n- Requires Charismatic Aspect to summon",
+    "type": "class",
+    "title": "Diplomat",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Host",
+    "value": "Host is a class\n- Bonus proficiency in serving\n- Bonus proficency in manners\n- Has Allure Mastery\n- Has Speech Mastery\n- Requires Alluring Aspect to summon",
+    "type": "class",
+    "title": "Host",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Shaman",
+    "value": "Shaman is a class\n- Can use Curse Magic\n- Has Curse Mastery\n- Reduced mana cost on Curse Magic\n- Requires Cursing Aspect to summon",
+    "type": "class",
+    "title": "Shaman",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Electromancer",
+    "value": "Electromancer is a class\n- Can use Thunder Magic\n- Has Thunder Mastery\n- Reduced mana cost on Thunder Magic\n- Requires Electro Aspect to summon",
+    "type": "class",
+    "title": "Electromancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Cryomancer",
+    "value": "Cryomancer is a class\n- Can use Ice Magic\n- Has Ice Mastery\n- Reduced mana cost on Ice Magic\n- Requires Cryo Aspect to summon",
+    "type": "class",
+    "title": "Cryomancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Pyromancer",
+    "value": "Pyromancer is a class\n- Can use Fire Magic\n- Has Fire Mastery\n- Reduced mana cost on Fire Magic\n- Requires Pyro Aspect to summon",
+    "type": "class",
+    "title": "Pyromancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Geomancer",
+    "value": "Geomancer is a class\n- Can use Earth Magic\n- Has Earth Mastery\n- Reduced mana cost on Earth Magic\n- Requires Aero Aspect to summon",
+    "type": "class",
+    "title": "Geomancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aeromancer",
+    "value": "Aeromancer is a class\n- Can use Wind Magic\n- Has Wind Mastery\n- Reduced mana cost on Wind Magic\n- Requires Aero Aspect to summon",
+    "type": "class",
+    "title": "Aeromancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Hydromancer",
+    "value": "Hydromancer is a class\n- Can use Water Magic\n- Has Water Mastery\n- Reduced mana cost on Water Magic\n- Requires Hydro Aspect to summon",
+    "type": "class",
+    "title": "Hydromancer",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Knight",
+    "value": "Knight is a class\n- Bonus martial proficiency\n- Bonus defense when fighting face to face\n- Has Heavy Armor Mastery\n- Requires Royalty Aspect to summon",
+    "type": "class",
+    "title": "Knight",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Merchant",
+    "value": "Merchant is a class\n- Has Gold Mastery\n- Can use Appraisal Skill\n- Better proficiency at negotiating trade\n- Requires Wealth Aspect to summon",
+    "type": "class",
+    "title": "Merchant",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Assassin",
+    "value": "Assassin is a class\n- Extreme damage bonus on stealth attack\n- Has Stealth Mastery\n- Requires Subterfuge Aspect to summon",
+    "type": "class",
+    "title": "Assassin",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Priest",
+    "value": "Priest or Priestess is a class\n- Can use Life Magic\n- Can use skill Bless\n- Can preach to create believers\n- Requires Faith Aspect to summon\n\nPriest Attires\n- Temperance: Hakama\n- Chastity: Medieval Europe Nun / Priest uniform\n- Charity: Simple modest brown Robe\n- Diligence: Robe with metalic engravings\n- Patience: Highly detailed robe with Runes\n- Kindness: Jubbah with Turban\n- Modesty: Toga with flower garlands\n- Chaos: Black robes with purple decorations",
+    "type": "class",
+    "title": "Priest",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Samurai",
+    "value": "Samurai is a class\n- Bonus martial proficiency\n- Bonus defense when fighting face to face\n- Bonus offense when fighting face to face\n- Has Heavy Armor Mastery\n- Requires Royalty Aspect to summon",
+    "type": "class",
+    "title": "Samurai",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ninja",
+    "value": "Ninja is a class\n- Extreme damage bonus on stealth attack\n- Has Stealth Mastery\n- Bonus martial proficiency\n- Requires Subterfuge Aspect to summon",
+    "type": "class",
+    "title": "Ninja",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Saboteur",
+    "value": "Saboteur is a class\n- Bonus speed and damage when destroying structures, machinery and constructs\n- Has Stealth Mastery\n- Requires Subterfuge Aspect to summon",
+    "type": "class",
+    "title": "Saboteur",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tyrant, Tyrants",
+    "value": "Tyrant is a unique class\n- All dungeon masters are Tyrant class\n- They have unique skills and traits based on their sin",
+    "type": "class",
+    "title": "Tyrant",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Hero, Heroes, Heroine, Heroines",
+    "value": "Hero is a unique class\n- All Heroes chosen by 7 virtues are Hero class\n- They can obtain any skill with effort and training\n- Have a unique skill based on their virtue",
+    "type": "class",
+    "title": "Hero",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Order of 7 Virtues, Religion, Political Relations",
+    "value": "Order of 7 Virtues is the official religous group of Virtue faction. They adhere to the principle of 7 Virtues.\nTroubled and working to prevent growth of Cult of Chaos and Puritan Church.",
+    "type": "faction",
+    "title": "Order of 7 Virtues",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Chaos Cult, Religion, Political Relations",
+    "value": "The Chaos Cult is the official state religion of the Daemonica Imperium, devoted to the Goddess of Chaos. While revered within Sin‑aligned territories, its members are notorious troublemakers in Virtue‑aligned cities, where their presence is illegal, disruptive, or both.",
+    "type": "faction",
+    "title": "Chaos Cult",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Puritan Church, Religion, Political Relations",
+    "value": "The Puritan Church is a strict, troublesome, exclusionary religious movement that emerged after the First War of Seven Sins. Founded by Norman survivors who felt abandoned by their former allies, the Church promotes a doctrine of racial purity centered around a narrow group of “virtuous” peoples. Its influence is growing rapidly among Norman nobles seeking ideological unity and political leverage.",
+    "type": "faction",
+    "title": "Puritan Church",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Rattan Undeground Metropolis, Rattan, Rat City, Rodan City",
+    "value": "Rattan Underground Metropolis is a legendary Rodan city said to exist deep beneath the surface. Its existence is widely debated, as no non‑Rodan has ever confirmed its location. For most of the world, Rattan is a myth — a whispered tale of a vast subterranean civilization hidden from all outsiders.",
+    "type": "location",
+    "title": "Rattan Undeground Metropolis",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Halfling Communities, Political Relations",
+    "value": "Halflings do not possess a unified nation. Instead, they live in small, humble towns and villages scattered across the continent. Their peaceful nature and lack of territorial ambition make them one of the least threatened peoples in the world.\nPerhaps they are the ones that benefited the most from the name of Virtuous Alliance as their hero was one of the vanguards earning them prestige as a virtuous race.",
+    "type": "faction",
+    "title": "Halfling Communities",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dwarven Federation, Political Relations",
+    "value": "The Dwarven Federation is a loose alliance of independent dwarven city‑states united by shared economic interests, resource management, and technological exchange. It functions primarily as a mercantile communication network and a mutual‑aid pact rather than a centralized nation.\nEach city is indepedent with no central ruler of the federation.",
+    "type": "faction",
+    "title": "Dwarven Federation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Elven Enclaves, Political Relations",
+    "value": "The Elven Enclaves are decentralized Wood Elven councils scattered across the continent, each rooted in a specific forest. While politically independent, they maintain a shared cultural identity and unite when facing external threats or territorial disputes.",
+    "type": "faction",
+    "title": "Elven Enclaves",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Arcania, Political Relations",
+    "value": "Arcania is the homeland of the High Elves, a nation renowned for unmatched magical mastery, refined culture, and cities more advanced and polished than any other civilization. Their capital, also named Arcania, stands as the world’s greatest hub of knowledge and arcane study.\nDue to their advanced nature they tend to look down on other races keeping a state closer to self isolation.",
+    "type": "faction",
+    "title": "Arcania",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Norman Kingdoms, Political Relations",
+    "value": "Sulmen Kingdoms are few and usually stay in the same oasis they occupy and are separated by vast deserts and unlivable canyons.\nDue to distance they prefer to focus on improving with what resources they have while trading for what they don't have.\nSome more corrupt kingdoms and may form water monopolies in their own territory.",
+    "type": "faction",
+    "title": "Sulmen Kingdoms",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Norman Kingdoms, Political Relations",
+    "value": "Norman Kingdoms are a chaotic ever changing political mishmash composed by Norman rulers, many kingdoms used to be former households who rebelled against their former country. This results in ever changing borders and skirmishes between nobilities. So other races just refer them as Norman Kingdoms.",
+    "type": "faction",
+    "title": "Norman Kingdoms",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tiangou Empire, Jianghu, Empire, Political Relations",
+    "value": "The Tiangou Empire is the ancestral homeland of the Highmen, a vast and disciplined nation built within an enormous, lush, fog‑shrouded canyon. It is a land of rigid hierarchy, ancient traditions, and unbroken imperial authority.\nIt's counterpart is Jianghu which refers to wanderers who try to stay out of the Empire's traditions taking a more free approach to life.\nThe canyon neighbours vast steppes where Equian nomads roam and are a nuisance to the Empire.",
+    "type": "faction",
+    "title": "Tiangou Empire",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Deep Sea Federation, Seafolk, Ocean, Sea, Political Relations",
+    "value": "Deep Sea Federation is an hegemony, this country is composed of Seafolk (Mermaids, Sahuagin and Scylian). They are uninterested in conquering the continent and prefer to develop their underwater metropolis.\nCurrently the strongest superpower and may intervene if the oceans are poluted.\n",
+    "type": "faction",
+    "title": "Deep Sea Federation",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Virtuous Alliance, Political Relations",
+    "value": "Virtuous Alliance is an alliance made by Norman, Highmen, Sulmen, Wood Elf, High Elf, Dwarf, Halfling countries to counter the Tyrants in the first war of Seven Sins.\nNowadays it exists in name after their victory in the war and it's name may be invoked just as political an excuse.",
+    "type": "faction",
+    "title": "Virtuous Alliance",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lupan, Lupans",
+    "value": "Lupan are wolf beastman\n- Usually hunters, mercenaries or bandits\n- Known for martial prowess\n- Usually live as small hunter gatherer villages or mercenary units\n- Strong physique\n- Very loyal to their leader\n- Calling them a dog is a terrible insult to their honor\n- Keen sense of smell\n- Neutral to Sin and Virtue factions\n- Appearance: Wolf girls and Wolf Boys",
+    "type": "race",
+    "title": "Lupan",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Vulpan, Vulpans",
+    "value": "Vulpan are fox beastman\n- Either live in secluded villages or among other races\n- Usually manipulative and seductive, having a mysterious aura\n- Some are good at Illusion magic\n- Keen senses, strong hearing\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Neutral to Sin and Virtue factions\n- Appearance: Fox girls and Fox Boys, typically graceful and striking in appearance",
+    "type": "race",
+    "title": "Vulpan",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Bunian, Bunians",
+    "value": "Bunian are bunny beastman\n- Usually peacefull gatherers\n- Usually live as small gatherer villages\n- Keen senses, strong hearing, fast runners\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Most of them are cowardly\n- Most of them are unaware that they are good scouts\n- Neutral to Sin and Virtue factions\n- Appearance: Bunny girls and Bunny Boys",
+    "type": "race",
+    "title": "Bunian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tengu",
+    "value": "Tengu is crow beastman\n- Arrogant, view's their own race as superior\n- Evolves Knight to Samurai class\n- Evolves Assassin to Ninja class\n- Good with magic\n- High reflexes and dexterirty\n- Very Intelligent\n- May let their guard down towards subservient attitudes\n- Appearance: Human, pointy ears, with black wings and hair\n- Related to Pride",
+    "type": "race",
+    "title": "Tengu",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Equian, Equians",
+    "value": "Equian are horse beastman\n- Usually nomads, with a chieftan bearing the title of khan.\n- Known for archery and calvary\n- Live in steppes near highmen empire\n- Several tribes are bandits rainding highmen villages\n- Strong physique, strong stamina\n- Warriors are brave, but civilians are cowardly\n- Neutral to Sin and Virtue factions\n- Appearance: Horse girls and Horse Boys (Human with horse ears and tail)",
+    "type": "race",
+    "title": "Equian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Ursan, Ursans",
+    "value": "Ursan are bear beastman\n- Usually gatherers, farmers and ranchers\n- Usually live in small villages\n- Extremely strong, a punch of an ordinary untrained civilian can dent steel\n- Surprisingly gentle, prefers to avoid conflict\n- Keen sense of smell\n- A bit clumsy\n- Neutral to Sin and Virtue factions\n- Appearance: Bear woman and Bear man (human with bear ears and muscular physique with a bit of fat)",
+    "type": "race",
+    "title": "Ursan",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Phibian, Phibians",
+    "value": "Phibians are an amphibian race\n- Tribal hunter gatherers centered around shamans or druids\n- Hates Humans, High elves and Dwarves for mistaking them as monsters\n- Hates sin factions for dragging them into conflict\n- Likes Wood Elves, and Halflings\n- Live in tribal swamp villages. Most of them live in marshes under Wood Elf countries as refugees from other races.\n- Appearance: Human with yellow, green, orange or blue smooth skin. Webbed hands and feet",
+    "type": "race",
+    "title": "Phibians",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Felian, Felians",
+    "value": "Felians are cat beastman\n- Usually forest rangers, mercenaries or bandits\n- Usually live as small hunter gatherer villages\n- Thin and very dexterous, keen senses\n- Neutral to Sin and Virtue factions\n- Appearance: Cat girls and Cat Boys",
+    "type": "race",
+    "title": "Felian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Draconian, Draconians",
+    "value": "Draconian is dragon beastman\n- Loves reflective metals\n- Good with magic, specially good magic\n- High physique\n- Very Tough\n- Would use treasure piles as decoration\n- Appearance: Human, pointy ears, with dragon scales and tail, wingless unless awakened\n- Related to Greed",
+    "type": "race",
+    "title": "Draconian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sahuagin, Sahuagins, Seafolk",
+    "value": "Sahuagin are a seafolk race\n- Hunters and warriors\n- Hates all land dwelling races expect halflings and wood elves\n- Live in the seas\n- Appearance: Human, pointy ears, with fins on head, arms, and legs, plus webbed hands and feet, have fish like tail.",
+    "type": "race",
+    "title": "Sahuagin",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Mermaid, Mermaids, Mermen, Mermens, Seafolk",
+    "value": "Mermaid and Merman are a seafolk race\n- Good at art and music\n- Known for hunting with tridents\n- Hates all land dwelling races expect halflings and wood elves\n- Live in seas with large cities\n- Appearance: Human with fish bottom",
+    "type": "race",
+    "title": "Mermaid",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Scylian, Scylians, Seafolk",
+    "value": "Scylian is a seafolk race\n- Advanced Magic Culture\n- Renown Magicians and alchemists\n- Hates all land dwelling races expect halflings and wood elves\n- Live in deep seas with large cities\n- Appearance: Human with octopus bottom",
+    "type": "race",
+    "title": "Scylian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Wood Elf, Elf, Elves",
+    "value": "Wood Elf is a elf race\n- Culturally most of them value nature and harmony\n- Rangers, tamers and druids by nature\n- Protectors of forest and nature\n- Known for gathering rare natural resources\n- Calling them Dark Elf is slander and may trigger hostility\n- Appearance: Brown skinned elf\n- Related to Modesty\n- Known to often use messenger birds",
+    "type": "race",
+    "title": "Wood Elf",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Halfling, Halflings",
+    "value": "Halfling is a race\n- Culturally most of them value friendship\n- Most live in very poor humble houses and are very welcoming\n- Merchants usually exploit halfling generosity\n- Most people can't hate them\n- Some may resort to theft and fall to crime due to poor conditions\n- Appearance: Childlike appearance\n- Related to Charity\n- Many halflings are farmers and keeps some sheepdogs and cats.",
+    "type": "race",
+    "title": "Halfling",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Norman, Normans, Human, Humans",
+    "value": "Norman is a human race\n- Culturally most of them value purity\n- Because of their value of purity and traditionalism they can become racist and xenophobic when viewing other races as impure\n- Medieval Europe Culture\n- Split in various kingdoms and duchies competing each other for power\n- Known for chivalry\n- Appearance: European Human\n- Related to Chastity\n- Many noble houses have a horse motif, royal families usually have a unicorn",
+    "type": "race",
+    "title": "Norman",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Highmen, Highmens, Human, Humans",
+    "value": "Highmen is a human race\n- Culturally most of them value restraint and morality\n- Devided by imperial culture and wanderer culture\n- Imperials prefer order and strict discipline, it's common to execute rule breakers\n- Wanderers value freedom while they still value self discipline they are often more loose than imperials\n- The Empire is situated in the peaks of high mountain\n- Appearance: Asian Human\n- Related to Temperance\n- Imperial officials often have a Ryu motif in their clothes",
+    "type": "race",
+    "title": "Highmen",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Sulmen, Sulmens, Human, Humans",
+    "value": "Sulmen is a human race\n- Culturally most of them value agreements\n- Traders by nature, true kindness has value in gold\n- Their kingdoms are located in strategic oasis in deserts, the more struggling countries have severe water and food shortages\n- When kindness runs out the worst of humanity is revealed\n- Appearance: Arabic Human\n- Related to Kindness\n- Royal Sulmen usually have a deer motif and the crown has antlers",
+    "type": "race",
+    "title": "Sulmen",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Somnian",
+    "value": "Somnian is sheep beastman\n- Relaxed personality\n- Good with magic, specially dream magic\n- Lazy\n- Appearance: Human with sheep characteristics such as horns and fluffy hair\n- Related to Sloth",
+    "type": "race",
+    "title": "Somnian",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Dwarf,Dwarves",
+    "value": "Dwarf is a race\n- Culturally most of them value craftsmanship\n- Can be bribed with good alcohol\n- They are also strong fighters\n- Usually stubborn, but loyal to a good friend\n- Appearance: Dwarf, big well kept beard, strong\n- Related to Diligence",
+    "type": "race",
+    "title": "Dwarf",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "High Elf, Elf, Elves",
+    "value": "High Elf is a elf race\n- Culturally most of them value knowledge\n- Magic Researchers\n- Build arcane fantasy cities\n- Magic and technology is everything\n- Look down on wood elves as uncultured\n- Appearance: White skinned elf\n- Related to Patience",
+    "type": "race",
+    "title": "High Elf",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Satyr",
+    "value": "Satyr is goat beastman\n- Playboy/Playgirl\n- Good with magic\n- Flirty\n- Composed\n- Elegant\n- Appearance: Human with goat horns and tail\n- Related to Lust",
+    "type": "race",
+    "title": "Satyr",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Tauran",
+    "value": "Tauran is tauros beastman\n- Competitive\n- High physique\n- Very muscular, even woman are muscular\n- Very Tough\n- Tall\n- Powerfull Headbutt\n- Easily Provoked\n- Surprisingly gentle and chill when not angry\n- Appearance: Human with bull horns\n- Related to Wrath",
+    "type": "race",
+    "title": "Tauran",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Orc",
+    "value": "Orc is boar beastman\n- Glutton\n- Can be bribed with good food and alcohol\n- Very tough\n- High physique\n- Easily gains weight\n- Appearance: Human with pig snout, males have tusks\n- Related to Gluttony",
+    "type": "race",
+    "title": "Orc",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Lamia",
+    "value": "Lamia is snake beastman\n- Competitive with appearances\n- Good with magic\n- Good with curses\n- Silent\n- May become hostile if she/he thinks someone is prettier\n- Appearance: Human with snake lower half\n- Related to Envy",
+    "type": "race",
+    "title": "Lamia",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Rodan, Rodans",
+    "value": "Rodan are rat beastman\n- Often solitary, working as merchants, peddlers, informants, or thieves\n- Opportunists\n- Have large hidden underground communities\n- Weak physique and cowardly\n- Usually around 120 cm tall\n- Neutral to Sin and Virtue factions\n- Appearance: Rat girls and Rat Boys",
+    "type": "race",
+    "title": "Rodan",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Clockwork",
+    "value": "Clockwork is anything made of multiple gears. It's possible to use enchanted gears to create perpetual motion machines and advanced automatons.\nClockworker Aspect allows craft of enchanted gears.",
+    "type": "Lore",
+    "title": "Clockwork",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Martial",
+    "value": "Martial is an Aspect unlockable by having Tyrant or minions master a valid martial art\n- Unlocks Weaponmaster Class\n- Allows to add skill Ambidexterity\n- Allows to add skill Heavy Armor Mastery\n- Allows to add skill Light Armor Mastery\n- Allows to add skill <Weapon> Mastery\n- Allows to add skill Unarmed Mastery\n- Allows to add skill Throwing Mastery\n- Allows to add skill Shield Mastery",
+    "type": "Aspect",
+    "title": "Martial",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Arcane_Alchemy",
+    "value": "Arcane Alchemy is an Aspect unlockable by successfully crafting a potion\n- Allows to construction of Alchemy Lab\n- Allows to create successfully crafted potions with DP\n- Unlocks Alchemist Class",
+    "type": "Aspect",
+    "title": "Arcane Alchemy",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Aspect_Spatial",
+    "value": "Spatial is an Aspect unlockable by teleporting without skills, structures, facilities or items\n- Allows to add skill Space Magic\n- Allows to add skill Space Mastery\n- Allows to construction of Warp Gate",
+    "type": "Passive Skill",
+    "title": "Spatial",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Facility_Warp_Gate",
+    "value": "Warp Gate is a facility that allows teleportation between Warp Gates for a much reduced energy / mana cost\nRequires Spatial Aspect",
+    "type": "Facility",
+    "title": "Warp Gate",
+    "description": "",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Natives",
+    "value": "“Natives” refers to the existing mortal races of the world. These include:\nHumans\nElves\nDwarves\nHalflings\nSeafolk\nBeastmen\n\nNatives can intermix, producing Hybrids.\n\nSkills and Class Determination\nA Native’s class is shaped by:\nNatural potential (innate talent, physical or magical aptitude)\nSoul core personality (interests, temperament, mental alignment)\nSomeone who has no interest in magic, for example, will not awaken a magic‑based class, regardless of talent.\nNatives may be born with additional skills beyond their inherent class.",
+    "type": "Lore",
+    "title": "Natives",
+    "description": "",
+    "useForCharacterCreation": false
+  }
+]
