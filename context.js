@@ -157,7 +157,6 @@ const modifier = (text) => {
       if (!cardsToTrigger.includes(card)){
         cardsToTrigger.push(card);  // Fetches/activates existing 
       }
-      check_aspect_unlock = true;
     }
 
     // Class Check
