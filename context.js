@@ -218,7 +218,7 @@ const modifier = (text) => {
   
   [text, stop] = AutoCards("context", text, stop);
   // Any other context modifier scripts can go here
-  if (cardsToTrigger.length >= 1 || class_list_check || race_list_check){
+  if (cardsToTrigger.length >= 1 || class_list_check || race_list_check || check_aspect_unlock || summon_check || build_check){
     // Find Story Summary marker
     var idx = text.indexOf("\n\nStory Summary:");
     var before = text;
@@ -256,19 +256,19 @@ const modifier = (text) => {
       }
       before += "\n\n" + class_list;
     }
+
+    //ouput context for possible successfull unlock
+    if (check_aspect_unlock){
+      before += "\n\ncheck unlock aspect for non obtained aspects";
+
+    }
+    if (summon_check){
+      before += "\n\ncheck if summoned monster is within requirements to be summoned";
+    }
+    if (build_check){
+      before += "\n\ncheck if facility is possible to be constructed";
+    }
     text = before + after;
-  }
-
-  //ouput context for possible successfull unlock
-  if (check_aspect_unlock){
-    text += "\n\ncheck unlock aspect for non obtained aspects";
-
-  }
-  if (summon_check){
-    text += "\n\ncheck if summoned monster is within requirements to be summoned";
-  }
-  if (build_check){
-    text += "\n\ncheck if facility is possible to be constructed";
   }
 
   //text += `\n\n DEBUG: ${state.memory.context}`
