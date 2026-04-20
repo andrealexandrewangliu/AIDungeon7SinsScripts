@@ -2,7 +2,7 @@ InnerSelf("context");
 const modifier = (text) => {
   // Trigger List
   const cardsToTrigger = [];
-  var list_check;
+  var list_check = false;
   var check_aspect_unlock = false;
   var temple_card = false;
   var build_check = false;
@@ -60,6 +60,11 @@ const modifier = (text) => {
         core_card_key_dict[card.keys] = card;
       }
       if (card.keys == 'Trigger_Generic_Summon_Catalogue'){
+        //card_generic_summon_context = card
+        core_card_name_dict[card.title] = card;
+        core_card_key_dict[card.keys] = card;
+      }
+      if (card.keys == 'Trigger_Facility_Catalogue'){
         //card_generic_summon_context = card
         core_card_name_dict[card.title] = card;
         core_card_key_dict[card.keys] = card;
@@ -141,6 +146,14 @@ const modifier = (text) => {
     // Call Aspect unlock check
     if (list_check && normalized.includes('aspect')){
       const card = core_card_key_dict[`Trigger_Unlock_Aspect_Check`];
+      if (!cardsToTrigger.includes(card)){
+        cardsToTrigger.push(card);  // Fetches/activates existing 
+      }
+      check_aspect_unlock = true;
+    }
+    // Call Facility List
+    if (list_check && (normalized.includes('facility') || normalized.includes('facilities'))){
+      const card = core_card_key_dict[`Trigger_Facility_Catalogue`];
       if (!cardsToTrigger.includes(card)){
         cardsToTrigger.push(card);  // Fetches/activates existing 
       }
