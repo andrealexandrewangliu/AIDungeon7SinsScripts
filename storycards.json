@@ -584,14 +584,6 @@
     "useForCharacterCreation": false
   },
   {
-    "keys": "Ambidexterity",
-    "value": "Ambidexterity is a passive skill\n- Negates dual wielding penalties on off hand weapon",
-    "type": "Passive Skill",
-    "title": "Ambidexterity",
-    "description": "",
-    "useForCharacterCreation": false
-  },
-  {
     "keys": "Overlord",
     "value": "Overlord is the strongest monster summonable by wrath.\n- A powerful Minotaur, it's eyes glow an intimidating red glow\n- Weaponmaster\n- Enjoys a good fight, easily provoked, obeys only the Tyrant\n- Can maintain sanity under taunt and beserk\n- Immune to fear\n- Becomes stronger the more damage recieved\n- Gains morale under curses and debuffs\n- Strong physically\n- Has skills: Monkey Grip, Heavy Armor Mastery, Ambidexterity\n- Presence of Overlord boosts morale of allies",
     "type": "character",
@@ -616,22 +608,6 @@
     "useForCharacterCreation": false
   },
   {
-    "keys": "Gel",
-    "value": "Gel is a monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Small\n- Cheap, easy to reproduce with proper environment\n- Looks like a colored squishy bubble\n- Has a core in the middle, will die if destroyed\n- Can evolve into Slime\n- Can evolve into Roper",
-    "type": "character",
-    "title": "Gel",
-    "description": "",
-    "useForCharacterCreation": false
-  },
-  {
-    "keys": "Slime",
-    "value": "Slime is a monster summonable by Tyrants\n- They serve as basic generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Resistant to Physical attacks\n- Small\n- Cheap, easy to reproduce with proper environment\n- Looks like a colored sludge\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
-    "type": "character",
-    "title": "Slime",
-    "description": "",
-    "useForCharacterCreation": false
-  },
-  {
     "keys": "Minotaur",
     "value": "Minotaur is an elite monster summonable by wrath.\n- Can have a class\n- Can ignore some pain\n- Enjoys a good fight, easily provoked\n- Immune to fear\n- Becomes stronger the more damage recieved\n- Strong physically",
     "type": "character",
@@ -644,14 +620,6 @@
     "value": "Wyvern is the an advanced monster summonable by greed.\n- Usefull for riding\n- Can use breath attack dependent if it has a main attribute\n- Color depends on main magic\n\nDragon Colors:\nTan - None\nGold - Gold Magic\nRed - Fire Magic\nBlue - Thunder Magic\nWhite - Ice Magic\nPink - Dream Magic\nSky Blue - Illusion Magic\nBlack - Curse Magic\nPurple - Poison Magic\nGreen - Life Magic",
     "type": "character",
     "title": "Wyvern",
-    "description": "",
-    "useForCharacterCreation": false
-  },
-  {
-    "keys": "Roper",
-    "value": "Roper is a monster summonable by Tyrants\n- They serve as advanced generic combatant in a dungeon\n- Cannot have a class\n- Can have an element\n- Can restrain victims\n- Easy to reproduce with proper environment\n- Can fit into a treasure chest\n- A bubble with tentacles sprouting\n- Has a core in the middle, will die if destroyed\n- Can evolve from Gel",
-    "type": "character",
-    "title": "Roper",
     "description": "",
     "useForCharacterCreation": false
   },
