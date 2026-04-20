@@ -102,6 +102,13 @@ const modifier = (text) => {
       }
       check_aspect_unlock = true;
     }
+    if (normalized.includes('teleport') || normalized.includes('warp')){
+      const card = core_card_key_dict[`Aspect_Spatial`];
+      if (!cardsToTrigger.includes(card)){
+        cardsToTrigger.push(card);  // Fetches/activates existing 
+      }
+      check_aspect_unlock = true;
+    }
 
     // Industrial unlock check (build + production line)
     if (build_check && (normalized.includes('workflow') || normalized.includes('automation') || normalized.includes('production') || normalized.includes('industr')) ){
