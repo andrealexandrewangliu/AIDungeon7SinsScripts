@@ -181,7 +181,7 @@ globalThis.MainSettings = (class MainSettings {
     ) // (mimic this comma-list "text" format)
     ,
     // Default story card "type" used by Auto-Cards? (does not matter)
-    DEFAULT_CARD_TYPE: "AutoCard"
+    DEFAULT_CARD_TYPE: "class"
     // ("text")
     ,
     // Should titles mentioned in the "opening" plot component be banned from future card generation by default?
@@ -544,7 +544,7 @@ function InnerSelf(hook) {
          * @type {Object}
          */
         const template = {
-            type: "IS",
+            type: "class",
             title: "Configure \nInner Self",
             // The config card entry contains the main settings
             entry: [
@@ -2908,7 +2908,7 @@ function AutoCards(inHook, inText, inStop) {
     ) // (mimic this comma-list "text" format)
     ,
     // Default story card "type" used by Auto-Cards? (does not matter)
-    DEFAULT_CARD_TYPE: "AutoCard"
+    DEFAULT_CARD_TYPE: "class"
     // ("text")
     ,
     // Should titles mentioned in the "opening" plot component be banned from future card generation by default?
@@ -4672,7 +4672,7 @@ function AutoCards(inHook, inText, inStop) {
                     Object.assign(AC.config, getDefaultConfig());
                     AC.config.deleteAllAutoCards = oldConfig.deleteAllAutoCards;
                     AC.config.LSIv2 = oldConfig.LSIv2;
-                    AC.config.defaultCardType = "AutoCard";
+                    AC.config.defaultCardType = oldConfig.defaultCardType;
                     AC.database.titles.banned = getDefaultConfigBans();
                     configureCard.description = getConfigureCardDescription();
                     configureCard.entry = getConfigureCardEntry();
@@ -7007,7 +7007,7 @@ function AutoCards(inHook, inText, inStop) {
                     }
                     continue;
                 }
-                card.type = coerce("AutoCard").trim();
+                card.type = coerce(card.type).trim();
                 card.title = coerce(card.title).trim();
                 card.entry = coerce(card.entry).trim();
                 card.description = coerce(card.description).trim();
@@ -7480,7 +7480,7 @@ function AutoCards(inHook, inText, inStop) {
                 "Summarize below:"
             ), "string"),
             // All cards constructed by AC will inherit this type by default
-            defaultCardType: "AutoCard"
+            defaultCardType: check(S.DEFAULT_CARD_TYPE, "class", "string")
         });
     }
     function getDefaultConfigBans() {
